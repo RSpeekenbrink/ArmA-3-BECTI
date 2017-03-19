@@ -11,7 +11,7 @@ overviewText = "Battle Against Players and AI for control of the Islands.";
 
 //--- ArmA 3 Specifics
 dev = "Fisher, Original by: Sari, Benny";
-author = "Fisher";
+author = "Fisher, Boivie";
 
 // overviewPicture
 overviewPicture = "Rsc\Pictures\missionSplash.paa";
