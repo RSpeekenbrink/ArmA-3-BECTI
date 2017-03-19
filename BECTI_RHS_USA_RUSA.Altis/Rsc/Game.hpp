@@ -10,7 +10,7 @@ onLoadMission = "Battle Against Players and AI for control of the Islands.";
 overviewText = "Battle Against Players and AI for control of the Islands.";
 
 //--- ArmA 3 Specifics
-dev = "Fisher, Original by: Sari, Benny";
+dev = "Fisher, Test Original by: Sari, Benny";
 author = "Fisher, Boivie";
 
 // overviewPicture
