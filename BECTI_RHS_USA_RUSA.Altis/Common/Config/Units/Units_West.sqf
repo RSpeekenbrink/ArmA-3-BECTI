@@ -119,6 +119,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['rhsusf_airforce_jetpilot'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [75];
+_t = _t + [5];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['rhsusf_army_ocp_javelin_assistant'];
 _p = _p + [''];
 _n = _n + [''];
@@ -173,6 +182,33 @@ _u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['rhsusf_army_ocp_explosives'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [200];
+_t = _t + [5];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['rhsusf_army_ocp_machinegunner'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [200];
+_t = _t + [5];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['rhsusf_army_ocp_machinegunnera'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [150];
+_t = _t + [5];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['rhsusf_army_ocp_jfo'];
 _p = _p + [''];
 _n = _n + [''];
@@ -219,7 +255,16 @@ _u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
-_c = _c + ['rhsusf_army_ocp_sniper_officer'];
+_c = _c + ['rhsusf_army_ocp_officer'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [200];
+_t = _t + [5];
+_u = _u + [3];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
+_c = _c + ['rhsusf_army_ocp_uav'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [200];
@@ -661,9 +706,113 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
-//TODO: Add Apache as u2
+_c = _c + ['RHS_AH64D_AA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [30000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
 
-//TODO: Add Planes as u3
+_c = _c + ['RHS_AH64D_noradar_AA'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [28000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH64D_CS'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [32000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH64D_noradar_CS'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [30000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH64D_GS'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [32000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH64D_noradar_GS'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [30000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH64D'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [35000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH64D_noradar'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [32000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_AH64DGrey'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [35000];
+_t = _t + [35];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_A10'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [50000];
+_t = _t + [35];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_A10_AT'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [55000];
+_t = _t + [35];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_C130J'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [55000];
+_t = _t + [35];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
 
 //--- Vehicles Naval
 _c = _c + ['B_Boat_Transport_01_F'];
