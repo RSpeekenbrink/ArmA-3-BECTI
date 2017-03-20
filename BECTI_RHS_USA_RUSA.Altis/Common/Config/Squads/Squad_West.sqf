@@ -112,7 +112,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["HeliAttack"];
 _t = _t		+ ["Heli - Attack"];
-_p = _p		+ [[["", 1]]];
+_p = _p		+ [[["RHS_AH64D", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [86000];
 _c = _c		+ ["Air"];
@@ -120,7 +120,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["AirAttack"];
 _t = _t		+ ["Air - Attack"];
-_p = _p		+ [[["", 1]]];
+_p = _p		+ [[["RHS_A10", 1]]];
 _f = _f		+ [CTI_AIR];
 _m = _m		+ [100000];
 _c = _c		+ ["Air"];

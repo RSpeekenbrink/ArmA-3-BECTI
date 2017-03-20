@@ -87,7 +87,7 @@ class Params {
 		title = "BASE: Worker Limit";
 		values[] = {5,10,15,20};
 		texts[] = {"5","10","15","20"};
-		default = 10;
+		default = 15;
 	};
 	class CTI_ECONOMY_INCOME_CYCLE {
 		title = "INCOME: Delay";
@@ -105,37 +105,37 @@ class Params {
 		title = "INCOME: Starting Funds (East Commander)";
 		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,80000};
 		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$80000"};
-		default = 80000;
+		default = 25000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_EAST {
 		title = "INCOME: Starting Funds (East Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000,30000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000","$30000"};
-		default = 30000;
+		default = 2400;
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_EAST {
 		title = "INCOME: Starting Supply (East)";
 		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,40000};
 		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S40000"};
-		default = 40000;
+		default = 4800;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST_COMMANDER {
 		title = "INCOME: Starting Funds (West Commander)";
 		values[] = {9000,15000,20000,25000,30000,35000,40000,45000,50000,60000,80000};
 		texts[] = {"$9000","$15000","$20000","$25000","$30000","$35000","$40000","$45000","$50000","$60000","$80000"};
-		default = 80000;
+		default = 25000;
 	};
 	class CTI_ECONOMY_STARTUP_FUNDS_WEST {
 		title = "INCOME: Starting Funds (West Players)";
 		values[] = {900,1500,2400,3200,6000,8000,10000,12500,15000,20000,30000};
 		texts[] = {"$900","$1500","$2400","$3200","$6000","$8000","$10000","$12500","$15000","$20000","$30000"};
-		default = 30000;
+		default = 2400;
 	};
 	class CTI_ECONOMY_STARTUP_SUPPLY_WEST {
 		title = "INCOME: Starting Supply (West)";
 		values[] = {1200,2400,3600,4800,6000,7200,8400,9600,40000};
 		texts[] = {"S1200","S2400","S3600","S4800","S6000","S7200","S8400","S9600","S40000"};
-		default = 40000;
+		default = 4800;
 	};
 	class CTI_ECONOMY_TOWNS_OCCUPATION {
 		title = "INCOME: Towns Occupation";

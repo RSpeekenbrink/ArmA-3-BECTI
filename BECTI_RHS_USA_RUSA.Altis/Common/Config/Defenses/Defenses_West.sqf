@@ -29,7 +29,10 @@ _headers = _headers 		+ ["AT"];
 _classes = _classes 		+ ["B_static_AT_F"];
 
 _headers = _headers 		+ ["Mortar"];
-_classes = _classes 		+ ["B_Mortar_01_F"];
+_classes = _classes 		+ ["RHS_M252_D"];
+
+_headers = _headers 		+ ["M119A2"];
+_classes = _classes 		+ ["RHS_M119_D"];
 
 
 //--- Defenses management for towns.
