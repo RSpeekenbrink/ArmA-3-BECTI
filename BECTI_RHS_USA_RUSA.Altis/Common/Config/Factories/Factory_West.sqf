@@ -113,7 +113,6 @@ _u = _u		+ ["RHS_AH64D_GS"];
 _u = _u		+ ["RHS_AH64D_noradar_GS"];
 _u = _u		+ ["RHS_AH64D"];
 _u = _u		+ ["RHS_AH64D_noradar"];
-_u = _u		+ ["RHS_AH64DGrey"];
 _u = _u		+ ["RHS_A10"];
 _u = _u		+ ["RHS_A10_AT"];
 _u = _u		+ ["RHS_C130J"];

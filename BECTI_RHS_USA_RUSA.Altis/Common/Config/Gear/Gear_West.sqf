@@ -57,6 +57,206 @@ _i = _i		+ ["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Orange"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
+_i = _i		+ ["rhs_200rnd_556x45_M_SAW"];
+_u = _u		+ [1];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhs_200rnd_556x45_B_SAW"];
+_u = _u		+ [1];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhs_200rnd_556x45_T_SAW"];
+_u = _u		+ [1];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_100Rnd_556x45_soft_pouch"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_200Rnd_556x45_soft_pouch"];
+_u = _u		+ [1];
+_p = _p		+ [15];
+
+_i = _i		+ ["rhsusf_8Rnd_00Buck"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_100Rnd_556x45_M200_soft_pouch"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_8Rnd_doomsday_Buck"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_8Rnd_Slug"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_8Rnd_HE"];
+_u = _u		+ [2];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_8Rnd_FRAG"];
+_u = _u		+ [2];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_5Rnd_00Buck"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_5Rnd_doomsday_Buck"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_5Rnd_Slug"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_5Rnd_HE"];
+_u = _u		+ [2];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_5Rnd_FRAG"];
+_u = _u		+ [2];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_20Rnd_762x51_m118_special_Mag"];
+_u = _u		+ [2];
+_p = _p		+ [10];
+
+_i = _i		+ ["rhsusf_20Rnd_762x51_m993_Mag"];
+_u = _u		+ [2];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_20Rnd_762x51_m62_Mag"];
+_u = _u		+ [2];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_5Rnd_300winmag_xm2010"];
+_u = _u		+ [2];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_50Rnd_762x51"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_50Rnd_762x51_m61_ap"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_50Rnd_762x51_m62_tracer"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_50Rnd_762x51_m80a1epr"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_100Rnd_762x51"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_100Rnd_762x51_m61_ap"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_100Rnd_762x51_m62_tracer"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_100Rnd_762x51_m80a1epr"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_50Rnd_762x51_m993"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_100Rnd_762x51_m993"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_5Rnd_762x51_m118_special_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_5Rnd_762x51_m993_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_5Rnd_762x51_m62_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_10Rnd_762x51_m118_special_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_10Rnd_762x51_m993_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_10Rnd_762x51_m62_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_mag_40Rnd_46x30_FMJ"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_mag_40Rnd_46x30_JHP"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_mag_40Rnd_46x30_AP"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_mag_10Rnd_STD_50BMG_M33"];
+_u = _u		+ [3];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhsusf_mag_10Rnd_STD_50BMG_mk211"];
+_u = _u		+ [3];
+_p = _p		+ [150];
+
+_i = _i		+ ["rhsusf_20Rnd_762x51_m118_special_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_20Rnd_762x51_m993_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_20Rnd_762x51_m62_Mag"];
+_u = _u		+ [3];
+_p = _p		+ [20];
+
+_i = _i		+ ["20Rnd_556x45_UW_mag"];
+_u = _u		+ [3];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhs_mag_smaw_HEAA"];
+_u = _u		+ [2];
+_p = _p		+ [100];
+
+_i = _i		+ ["rhs_mag_smaw_HEDP"];
+_u = _u		+ [2];
+_p = _p		+ [100];
+
+_i = _i		+ ["rhs_mag_smaw_SR"];
+_u = _u		+ [2];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhs_fim92_mag"];
+_u = _u		+ [2];
+_p = _p		+ [100];
+
+_i = _i		+ ["rhs_fgm148_magazine_AT"];
+_u = _u		+ [3];
+_p = _p		+ [100];
+
 //=-= GL Grenades
 _i = _i		+ ["rhs_mag_M433_HEDP"];
 _u = _u		+ [0];
@@ -202,6 +402,296 @@ _i = _i		+ ["rhs_weap_m4a1_carryhandle_mstock"];
 _u = _u		+ [0];
 _p = _p		+ [30];
 
+_i = _i		+ ["rhs_weap_m249"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m249_pip_L"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m249_pip_L_para"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m249_pip_L_vfg"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m249_pip_S"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m249_pip_S_para"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m249_pip_S_vfg"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m249_pip"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_M590_8RD"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_M590_5RD"];
+_u = _u		+ [1];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m14ebrri"];
+_u = _u		+ [2];
+_p = _p		+ [50];
+
+_i = _i		+ ["rhs_weap_XM2010"];
+_u = _u		+ [2];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhs_weap_XM2010_wd"];
+_u = _u		+ [2];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhs_weap_XM2010_d"];
+_u = _u		+ [2];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhs_weap_XM2010_sa"];
+_u = _u		+ [2];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhs_weap_m240B"];
+_u = _u		+ [2];
+_p = _p		+ [60];
+
+_i = _i		+ ["rhs_weap_m240B_CAP"];
+_u = _u		+ [2];
+_p = _p		+ [60];
+
+_i = _i		+ ["rhs_weap_m240G"];
+_u = _u		+ [2];
+_p = _p		+ [60];
+
+_i = _i		+ ["rhs_weap_m24sws"];
+_u = _u		+ [3];
+_p = _p		+ [75];
+
+_i = _i		+ ["rhs_weap_m24sws_blk"];
+_u = _u		+ [3];
+_p = _p		+ [75];
+
+_i = _i		+ ["rhs_weap_m24sws_ghillie"];
+_u = _u		+ [3];
+_p = _p		+ [110];
+
+_i = _i		+ ["rhs_weap_m40a5"];
+_u = _u		+ [3];
+_p = _p		+ [75];
+
+_i = _i		+ ["rhs_weap_m40a5_d"];
+_u = _u		+ [3];
+_p = _p		+ [75];
+
+_i = _i		+ ["rhs_weap_m40a5_wd"];
+_u = _u		+ [3];
+_p = _p		+ [75];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_bk"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_M203_bk"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_KAC_bk"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_d"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_M203_d"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_KAC_d"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_M203"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_KAC"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_wd"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_blockII_M203_wd"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_m4a1"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_d"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_m203s_d"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_m4a1_d_mstock"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_m203"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_m4a1_m203s"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_m4a1_m320"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_m4a1_pmag"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_m4a1_mstock"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_hk416d10"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_hk416d10_m320"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_hk416d10_LMT"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_hk416d145"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_hk416d145_m320"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_mk18"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_mk18_bk"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_mk18_KAC_bk"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_mk18_d"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_mk18_KAC_d"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_mk18_m320"];
+_u = _u		+ [3];
+_p = _p		+ [45];
+
+_i = _i		+ ["rhs_weap_mk18_KAC"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_mk18_wd"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhs_weap_mk18_KAC_wd"];
+_u = _u		+ [3];
+_p = _p		+ [40];
+
+_i = _i		+ ["rhsusf_weap_MP7A2"];
+_u = _u		+ [3];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_weap_MP7A2_aor1"];
+_u = _u		+ [3];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_weap_MP7A2_desert"];
+_u = _u		+ [3];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhsusf_weap_MP7A2_winter"];
+_u = _u		+ [3];
+_p = _p		+ [20];
+
+_i = _i		+ ["rhs_weap_M107"];
+_u = _u		+ [3];
+_p = _p		+ [120];
+
+_i = _i		+ ["rhs_weap_M107_d"];
+_u = _u		+ [3];
+_p = _p		+ [120];
+
+_i = _i		+ ["rhs_weap_M107_w"];
+_u = _u		+ [3];
+_p = _p		+ [120];
+
+_i = _i		+ ["rhs_weap_sr25"];
+_u = _u		+ [3];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhs_weap_sr25_d"];
+_u = _u		+ [3];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhs_weap_sr25_ec"];
+_u = _u		+ [3];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhs_weap_sr25_ec_d"];
+_u = _u		+ [3];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhs_weap_sr25_ec_wd"];
+_u = _u		+ [3];
+_p = _p		+ [80];
+
+_i = _i		+ ["rhs_weap_sr25_wd"];
+_u = _u		+ [3];
+_p = _p		+ [80];
+
+_i = _i		+ ["arifle_SDAR_F"];
+_u = _u		+ [3];
+_p = _p		+ [80];
+
+
+
 //=-= PISTOLS
 _i = _i		+ ["rhsusf_weap_m9"];
 _u = _u		+ [0];
@@ -236,6 +726,22 @@ _i = _i		+ ["rhs_weap_m72a7"];
 _u = _u		+ [1];
 _p = _p		+ [50];
 
+_i = _i		+ ["rhs_weap_smaw"];
+_u = _u		+ [2];
+_p = _p		+ [190];
+
+_i = _i		+ ["rhs_weap_smaw_green"];
+_u = _u		+ [2];
+_p = _p		+ [190];
+
+_i = _i		+ ["rhs_weap_fim92"];
+_u = _u		+ [2];
+_p = _p		+ [300];
+
+_i = _i		+ ["rhs_weap_fgm148"];
+_u = _u		+ [3];
+_p = _p		+ [300];
+
 
 //--- Uniforms
 _i = _i		+ ["rhs_uniform_cu_ocp"];
@@ -257,6 +763,14 @@ _p = _p		+ [10];
 _i = _i		+ ["rhs_uniform_cu_ocp_82nd"];
 _u = _u		+ [0];
 _p = _p		+ [10];
+
+_i = _i		+ ["U_B_HeliPilotCoveralls"];
+_u = _u		+ [1];
+_p = _p		+ [10];
+
+_i = _i		+ ["U_B_PilotCoveralls"];
+_u = _u		+ [1];
+_p = _p		+ [15];
 
 _i = _i		+ ["U_B_Wetsuit"];
 _u = _u		+ [2];
@@ -314,6 +828,22 @@ _p = _p		+ [25];
 
 _i = _i		+ ["rhsusf_iotv_ocp_Teamleader"];
 _u = _u		+ [0];
+_p = _p		+ [25];
+
+_i = _i		+ ["V_TacVest_oli"];
+_u = _u		+ [1];
+_p = _p		+ [15];
+
+_i = _i		+ ["rhsusf_spc_patchless"];
+_u = _u		+ [3];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_spc_patchless_radio"];
+_u = _u		+ [3];
+_p = _p		+ [25];
+
+_i = _i		+ ["rhsusf_spcs_ocp_rifleman"];
+_u = _u		+ [3];
 _p = _p		+ [25];
 
 _i = _i		+ ["V_RebreatherB"];
@@ -454,13 +984,141 @@ _i = _i		+ ["rhsusf_patrolcap_ocp"];
 _u = _u		+ [0];
 _p = _p		+ [5];
 
-_i = _i		+ ["H_PilotHelmetHeli_B"];
+_i = _i		+ ["rhsusf_hgu56p"];
 _u = _u		+ [1];
 _p = _p		+ [7];
 
-_i = _i		+ ["H_Booniehat_mcamo"];
+_i = _i		+ ["rhsusf_hgu56p_mask"];
 _u = _u		+ [1];
-_p = _p		+ [5];
+_p = _p		+ [7];
+
+_i = _i		+ ["RHS_jetpilot_usaf"];
+_u = _u		+ [1];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_Bowman"];
+_u = _u		+ [3];
+_p = _p		+ [2];
+
+_i = _i		+ ["rhsusf_bowman_cap"];
+_u = _u		+ [3];
+_p = _p		+ [4];
+
+_i = _i		+ ["rhsusf_opscore_bk"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_bk_pelt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_coy_cover"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_coy_cover_pelt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_fg"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_fg_pelt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_fg_pelt_cam"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_fg_pelt_nsw"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_mc_cover"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_mc_cover_pelt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_mc_cover_pelt_nsw"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_mc_cover_pelt_cam"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_mc"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_mc_pelt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_mc_pelt_nsw"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_paint"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_paint_pelt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_paint_pelt_nsw"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_paint_pelt_nsw_cam"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_rg_cover"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_rg_cover_pelt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_ut"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_ut_pelt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_ut_pelt_cam"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_ut_pelt_nsw"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_opscore_ut_pelt_nsw_cam"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_semi"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_tan"];
+_u = _u		+ [3];
+_p = _p		+ [7];
 
 //--- Accessories
 _i = _i		+ ["optic_arco"];
@@ -670,6 +1328,95 @@ _p = _p		+ [25];
 _i = _i		+ ["acc_flashlight"];
 _u = _u		+ [0];
 _p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_acc_grip2"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_acc_grip2_tan"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_acc_grip1"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_acc_harris_bipod"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_acc_grip3"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_acc_grip3_tan"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_acc_M8541"];
+_u = _u		+ [2];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_M8541_low"];
+_u = _u		+ [2];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_M8541_low_d"];
+_u = _u		+ [2];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_M8541_low_wd"];
+_u = _u		+ [2];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_premier_low"];
+_u = _u		+ [2];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_premier_anpvs27"];
+_u = _u		+ [2];
+_p = _p		+ [75];
+
+_i = _i		+ ["rhsusf_acc_premier"];
+_u = _u		+ [2];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_LEUPOLDMK4"];
+_u = _u		+ [2];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_LEUPOLDMK4_2"];
+_u = _u		+ [2];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_LEUPOLDMK4_2_d"];
+_u = _u		+ [2];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_rotex_mp7_aor1"];
+_u = _u		+ [3];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_rotex_mp7"];
+_u = _u		+ [3];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_rotex_mp7_desert"];
+_u = _u		+ [3];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_rotex_mp7_winter"];
+_u = _u		+ [3];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhsusf_acc_SR25S"];
+_u = _u		+ [3];
+_p = _p		+ [30];
+
+_i = _i		+ ["rhs_weap_optic_smaw"];
+_u = _u		+ [2];
+_p = _p		+ [10];
+
 
 //--- Items
 _i = _i		+ ["rhsusf_ANPVS_14"];

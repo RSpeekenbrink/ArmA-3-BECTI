@@ -157,6 +157,6 @@ missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
 	[["rhs_uniform_cu_ocp",["firstaidkit","firstaidkit"]],["rhsusf_iotv_ocp_Squadleader",["rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_an_m8hc", "rhs_mag_an_m8hc", "rhs_mag_m67", "rhs_mag_m67"]],["",[""]]],
 	["rhsusf_ach_helmet_headset_ocp",""],[["rhsusf_ANPVS_14","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-	[["arifle_Mk20_plain_F",["","acc_flashlight","optic_Holosight_blk_F",""],["30Rnd_556x45_Stanag"]],["launch_rpg32_f",[],["rpg32_f"]],["",[],[]]],
-	[["U_O_T_Officer_F",["firstaidkit","firstaidkit"]],["V_HarnessO_ghex_F",["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"]],["B_ViperLightHarness_ghex_F",["handgrenade","handgrenade","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","rpg32_f","rpg32_f"]]],
-	["H_HelmetO_ghex_F",""],[["nvgoggles","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+	[["rhs_weap_ak74m",["rhs_acc_dtk","","",""],["rhs_30Rnd_545x39_AK"]],["",[],[""]],["",[],[]]],
+	[["rhs_uniform_emr_patchless",["firstaidkit","firstaidkit"]],["rhs_6b23_digi_6sh92",["rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgo","rhs_mag_rgo"]],["",[""]]],
+	["rhs_6b28",""],[["rhs_1PN138","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];

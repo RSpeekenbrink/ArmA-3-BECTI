@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=633;
+		nextID=653;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=983;
+		nextID=1101;
 	};
 	class Camera
 	{
-		pos[]={14936.251,2113.8574,15808.832};
-		dir[]={-0.0058571086,-0.93626666,0.35124588};
-		up[]={-0.015610458,0.35127914,0.93613929};
-		aside[]={0.99986136,-9.2230039e-008,0.016672391};
+		pos[]={11485.504,117.48351,9514.8652};
+		dir[]={-0.56775099,-0.643233,0.51372451};
+		up[]={-0.47696161,0.76567066,0.43157455};
+		aside[]={0.670946,-4.0279701e-008,0.74150699};
 	};
 };
 binarizationWanted=0;
@@ -80,8 +80,10 @@ class AddonsMetaData
 randomSeed=7728140;
 class ScenarioData
 {
-	overviewText="BECTI Tanoa Warfare SE";
-	onLoadMission="BECTI Warfare - Sari's Edition";
+	overviewText="BECTI RHS USA-RUSA ALTIS";
+	onLoadMission="BECTI RHS USA-RUSA ALTIS";
+	respawn=3;
+	respawnDelay=3;
 };
 class CustomAttributes
 {
@@ -117,7 +119,7 @@ class CustomAttributes
 										"STRING"
 									};
 								};
-								value="None";
+								value="Counter";
 							};
 						};
 					};
@@ -1503,7 +1505,7 @@ class Mission
 						position[]={8544.1426,-62.528145,5562.063};
 					};
 					name="CTI_Logic";
-					init="this setVariable [""totalTowns"",52]; " \n "this setVariable [""Towns_RemovedXSmall"",[""""]]; " \n "this setVariable [""Towns_RemovedSmall"",[""""]]; this setVariable [""Towns_RemovedMedium"",[""""]]; " \n "this setVariable [""Towns_RemovedLarge"",[""""]]; nullReturn = [this] ExecVM ""Common\Init\Init_LocationMode.sqf""";
+					init="this setVariable [""totalTowns"",61]; " \n "this setVariable [""Towns_RemovedXSmall"",[""""]]; " \n "this setVariable [""Towns_RemovedSmall"",[""""]]; this setVariable [""Towns_RemovedMedium"",[""""]]; " \n "this setVariable [""Towns_RemovedLarge"",[""""]]; nullReturn = [this] ExecVM ""Common\Init\Init_LocationMode.sqf""";
 					id=363;
 					type="Logic";
 					atlOffset=84.010002;
@@ -1529,7 +1531,7 @@ class Mission
 			name="Towns";
 			class Entities
 			{
-				items=52;
+				items=62;
 				class Item0
 				{
 					dataType="Layer";
@@ -3503,7 +3505,7 @@ class Mission
 				class Item50
 				{
 					dataType="Layer";
-					name="Syrta_1";
+					name="Agios Konstantinos";
 					class Entities
 					{
 						items=3;
@@ -3573,20 +3575,254 @@ class Mission
 					id=547;
 					atlOffset=-0.021003723;
 				};
+				class Item52
+				{
+					dataType="Layer";
+					name="Stadium Road";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6210.751,27.578072,15089.188};
+								angles[]={6.2671871,3.4765563,0.041309625};
+							};
+							name="Town52";
+							init="nullReturn = [this, ""Stadium Road"", resistance, 20, 30, 250, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=633;
+							type="LocationArea_F";
+						};
+						class Item1
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6094.6099,25.053673,15006.596};
+								angles[]={0.019996032,3.4099505,0.10494626};
+							};
+							id=634;
+							type="LocationCamp_F";
+						};
+					};
+					id=635;
+					atlOffset=0.10225487;
+				};
+				class Item53
+				{
+					dataType="Layer";
+					name="AAC Airfield_1";
+					id=636;
+					atlOffset=185.97;
+				};
+				class Item54
+				{
+					dataType="Layer";
+					name="Xirolimni dam";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={9197.8047,40.890572,13723.506};
+								angles[]={0.066566855,3.4765563,6.2405472};
+							};
+							name="Town53";
+							init="nullReturn = [this, ""Xirolinmi Dam"", resistance, 10, 30, 350, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=638;
+							type="LocationArea_F";
+							atlOffset=-0.0030021667;
+						};
+					};
+					id=637;
+					atlOffset=-0.0030021667;
+				};
+				class Item55
+				{
+					dataType="Layer";
+					name="Dump";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={5946.895,101.53143,12463.042};
+								angles[]={6.2605133,3.4765563,6.2405472};
+							};
+							name="Town54";
+							init="nullReturn = [this, ""Dump"", resistance, 10, 10, 150, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=640;
+							type="LocationArea_F";
+						};
+					};
+					id=639;
+				};
+				class Item56
+				{
+					dataType="Layer";
+					name="Dump2";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={5932.3525,223.70081,20149.389};
+								angles[]={0.053281568,3.4765563,6.2498641};
+							};
+							name="Town56";
+							init="nullReturn = [this, ""Dump"", resistance, 10, 10, 150, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=642;
+							type="LocationArea_F";
+						};
+					};
+					id=641;
+				};
+				class Item57
+				{
+					dataType="Layer";
+					name="Sideras";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={23365.197,4.0184736,24185.893};
+								angles[]={0.012007865,3.4765563,6.2791882};
+							};
+							name="Town57";
+							init="nullReturn = [this, ""Sideras"", resistance, 10, 25, 250, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=644;
+							type="LocationArea_F";
+							atlOffset=-4.7683716e-007;
+						};
+					};
+					id=643;
+					atlOffset=-4.7683716e-007;
+				};
+				class Item58
+				{
+					dataType="Layer";
+					name="Selakano Airbase_1";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={16670.689,4.940547,20499.238};
+								angles[]={6.2671871,3.4765563,6.2485328};
+							};
+							name="Town58";
+							init="nullReturn = [this, ""Agia Triada"", resistance, 10, 30, 350, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=646;
+							type="LocationArea_F";
+						};
+					};
+					id=645;
+				};
+				class Item59
+				{
+					dataType="Layer";
+					name="Vikos";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={11551.449,19.60232,9417.627};
+								angles[]={0.066566855,3.4765563,6.2405472};
+							};
+							name="Town59";
+							init="nullReturn = [this, ""Vikos"", resistance, 10, 30, 350, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=648;
+							type="LocationArea_F";
+							atlOffset=-0.033000946;
+						};
+					};
+					id=647;
+					atlOffset=-0.033000946;
+				};
+				class Item60
+				{
+					dataType="Layer";
+					name="Ekali";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={17062.512,20.744896,10010.867};
+								angles[]={6.2698507,3.4765563,0.013334315};
+							};
+							name="Town55";
+							init="nullReturn = [this, ""Ekali"", resistance, 20, 40, 500, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=650;
+							type="LocationArea_F";
+							atlOffset=-0.0079994202;
+						};
+					};
+					id=649;
+					atlOffset=-0.0079994202;
+				};
+				class Item61
+				{
+					dataType="Layer";
+					name="Salt Lake";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={23109.92,3.1900001,18849.031};
+								angles[]={0,3.4765563,0};
+							};
+							name="Town60";
+							init="nullReturn = [this, ""Salt Lake"", resistance, 20, 40, 500, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=652;
+							type="LocationArea_F";
+						};
+					};
+					id=651;
+				};
 			};
 			id=262;
-			atlOffset=-67.598907;
+			atlOffset=-32.251125;
 		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=102;
+			nextID=103;
 		};
 		class Links
 		{
-			items=102;
+			items=103;
 			class Item0
 			{
 				linkID=0;
@@ -4602,6 +4838,16 @@ class Mission
 				linkID=101;
 				item0=546;
 				item1=544;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item102
+			{
+				linkID=102;
+				item0=634;
+				item1=633;
 				class CustomData
 				{
 					type="Sync";
