@@ -296,13 +296,13 @@ _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Light"]; 
 
 _headers = _headers 		+ ["M2 Tripod (Low)"];
-_classes = _classes 		+ ["HS_M2StaticMG_MiniTripod_D"];
+_classes = _classes 		+ ["RHS_M2StaticMG_MiniTripod_D"];
 _prices = _prices 			+ [400];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["M2 Tripod"];
-_classes = _classes 		+ ["HS_M2StaticMG_D"];
+_classes = _classes 		+ ["RHS_M2StaticMG_D"];
 _prices = _prices 			+ [600];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
