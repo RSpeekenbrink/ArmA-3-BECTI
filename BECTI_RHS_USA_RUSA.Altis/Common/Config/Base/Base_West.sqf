@@ -90,7 +90,7 @@ _headers = _headers 		+ [[CTI_LIGHT, "Light Vehicle Factory", "Light"]];
 _classes = _classes 		+ [["Land_Bunker_F", "Land_Cargo20_military_green_F"]];
 _prices = _prices 			+ [600];
 _times = _times 			+ [80];
-_placements = _placements 	+ [[90, 20]];
+_placements = _placements 	+ [[180, 20]];
 _helper = _helper			+ [["Land_VR_Target_MRAP_01_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
@@ -103,10 +103,10 @@ _helper = _helper			+ [[""]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
-_classes = _classes 		+ [["Land_Factory_Tunnel_F", "Land_Factory_Tunnel_F"]];
+_classes = _classes 		+ [["Land_Bunker_F", "Land_Factory_Tunnel_F"]];
 _prices = _prices 			+ [2800];
 _times = _times 			+ [120];
-_placements = _placements 	+ [[90, 25]];
+_placements = _placements 	+ [[180, 25]];
 _helper = _helper			+ [["Land_VR_Target_MBT_01_cannon_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
@@ -253,6 +253,30 @@ _prices = _prices 			+ [200];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
+_headers = _headers 		+ ["Sandbag Wall (Short)"];
+_classes = _classes 		+ ["Land_BagFence_Short_F"];
+_prices = _prices 			+ [10];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Sandbag Wall (Long)"];
+_classes = _classes 		+ ["Land_BagFence_Long_F"];
+_prices = _prices 			+ [15];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Sandbag Wall (Round)"];
+_classes = _classes 		+ ["Land_BagFence_Round_F"];
+_prices = _prices 			+ [15];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
+_headers = _headers 		+ ["Sandbag Wall (Corner)"];
+_classes = _classes 		+ ["Land_BagFence_Corner_F"];
+_prices = _prices 			+ [5];
+_placements = _placements 	+ [[0, 7]];
+_categories = _categories 	+ ["Fortification"];
+
 _headers = _headers 		+ [["FOB",[["RuinOnDestroyed", "Land_Medevac_house_V1_ruins_F"], ["FOB"],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_fobs")}; (_cpt < CTI_BASE_FOB_MAX) && (call CTI_CL_FNC_IsPlayerCommander || (!(call CTI_CL_FNC_IsPlayerCommander) && CTI_P_TeamsRequests_FOB > 0))}]]]];
 _classes = _classes 		+ ["Land_Medevac_house_V1_F"];
 _prices = _prices 			+ [7500];
@@ -271,55 +295,43 @@ _prices = _prices 			+ [60];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Light"]; 
 
-_headers = _headers 		+ ["Remote Designator"];
-_classes = _classes 		+ ["B_Static_Designator_01_F"];
-_prices = _prices 			+ [250];
-_placements = _placements 	+ [[180, 15]];
-_categories = _categories 	+ ["Defense"];
-
-_headers = _headers 		+ ["MG Defense"];
-_classes = _classes 		+ ["B_HMG_01_F"];
+_headers = _headers 		+ ["M2 Tripod (Low)"];
+_classes = _classes 		+ ["HS_M2StaticMG_MiniTripod_D"];
 _prices = _prices 			+ [400];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
-_headers = _headers 		+ ["MG Defense (Raised)"];
-_classes = _classes 		+ ["B_HMG_01_High_F"];
+_headers = _headers 		+ ["M2 Tripod"];
+_classes = _classes 		+ ["HS_M2StaticMG_D"];
 _prices = _prices 			+ [600];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["GL Defense"];
-_classes = _classes 		+ ["B_GMG_01_F"];
+_classes = _classes 		+ ["RHS_MK19_TriPod_D"];
 _prices = _prices 			+ [700];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
-_headers = _headers 		+ ["GL Defense (Raised)"];
-_classes = _classes 		+ ["B_GMG_01_high_F"];
-_prices = _prices 			+ [900];
-_placements = _placements 	+ [[180, 15]];
-_categories = _categories 	+ ["Defense"];
-
 _headers = _headers 		+ ["AT Defense"];
-_classes = _classes 		+ ["B_static_AT_F"];
+_classes = _classes 		+ ["RHS_Tow_TriPod_D"];
 _prices = _prices 			+ [1800];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
 _headers = _headers 		+ ["AA Defense"];
-_classes = _classes 		+ ["B_static_AA_F"];
+_classes = _classes 		+ ["RHS_Stinger_AA_pod_D"];
 _prices = _prices 			+ [1600];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
-_headers = _headers 		+ ["Mortar"];
+_headers = _headers 		+ ["M252 Mortar"];
 _classes = _classes 		+ ["RHS_M252_D"];
 _prices = _prices 			+ [2000];
 _placements = _placements 	+ [[180, 15]];
 _categories = _categories 	+ ["Defense"];
 
-_headers = _headers 		+ ["M119A2"];
+_headers = _headers 		+ ["M119A2 Howitzer"];
 _classes = _classes 		+ ["RHS_M119_D"];
 _prices = _prices 			+ [4000];
 _placements = _placements 	+ [[180, 15]];

@@ -11,27 +11,24 @@ _classes = [];
 //--- Defenses (Statics)
 
 _headers = _headers 		+ ["MG"];
-_classes = _classes 		+ ["B_HMG_01_F"];
+_classes = _classes 		+ ["HS_M2StaticMG_MiniTripod_D"];
 
 _headers = _headers 		+ ["MG"];
-_classes = _classes 		+ ["B_HMG_01_high_F"];
+_classes = _classes 		+ ["HS_M2StaticMG_D"];
 
 _headers = _headers 		+ ["GL"];
-_classes = _classes 		+ ["B_GMG_01_F"];
-
-_headers = _headers 		+ ["GL"];
-_classes = _classes 		+ ["B_GMG_01_high_F"];
+_classes = _classes 		+ ["RHS_MK19_TriPod_D"];
 
 _headers = _headers 		+ ["AA"];
-_classes = _classes 		+ ["B_static_AA_F"];
+_classes = _classes 		+ ["RHS_Stinger_AA_pod_D"];
 
 _headers = _headers 		+ ["AT"];
-_classes = _classes 		+ ["B_static_AT_F"];
+_classes = _classes 		+ ["RHS_Tow_TriPod_D"];
 
 _headers = _headers 		+ ["Mortar"];
 _classes = _classes 		+ ["RHS_M252_D"];
 
-_headers = _headers 		+ ["M119A2"];
+_headers = _headers 		+ ["M119A2 Howitzer"];
 _classes = _classes 		+ ["RHS_M119_D"];
 
 
