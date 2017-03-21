@@ -257,6 +257,26 @@ _i = _i		+ ["rhs_fgm148_magazine_AT"];
 _u = _u		+ [3];
 _p = _p		+ [100];
 
+_i = _i		+ ["rhsusf_mag_17Rnd_9x19_JHP"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_mag_17Rnd_9x19_FMJ"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_mag_7x45acp_MHP"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_mag_15Rnd_9x19_JHP"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
+_i = _i		+ ["rhsusf_mag_15Rnd_9x19_FMJ"];
+_u = _u		+ [0];
+_p = _p		+ [5];
+
 //=-= GL Grenades
 _i = _i		+ ["rhs_mag_M433_HEDP"];
 _u = _u		+ [0];
@@ -690,8 +710,6 @@ _i = _i		+ ["arifle_SDAR_F"];
 _u = _u		+ [3];
 _p = _p		+ [80];
 
-
-
 //=-= PISTOLS
 _i = _i		+ ["rhsusf_weap_m9"];
 _u = _u		+ [0];
@@ -1105,6 +1123,22 @@ _u = _u		+ [3];
 _p = _p		+ [7];
 
 _i = _i		+ ["rhsusf_opscore_ut_pelt_nsw_cam"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_cvc_green_helmet"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_cvc_green_ess"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_cvc_helmet"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_cvc_ess"];
 _u = _u		+ [3];
 _p = _p		+ [7];
 
