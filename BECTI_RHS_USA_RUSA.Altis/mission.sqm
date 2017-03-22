@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=671;
+		nextID=675;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1549;
+		nextID=1550;
 	};
 	class Camera
 	{
-		pos[]={12235.011,229.65518,7420.9814};
-		dir[]={-0.73096383,-0.18598017,-0.65669912};
-		up[]={-0.13840958,0.98254162,-0.12434871};
-		aside[]={-0.6683585,-6.5658242e-007,0.74394208};
+		pos[]={4168,830.85748,10939.106};
+		dir[]={0.70443445,-0.61019605,-0.36255586};
+		up[]={0.54255539,0.79224747,-0.27924049};
+		aside[]={-0.45762584,2.3026951e-007,-0.88915038};
 	};
 };
 binarizationWanted=0;
@@ -1085,10 +1085,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8404.7227,110.2459,25113.244};
+						position[]={8404.7227,109.88694,25113.244};
+						angles[]={0.046631888,0,0.16255243};
 					};
 					side="West";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -1097,14 +1098,12 @@ class Mission
 					};
 					id=234;
 					type="rhsusf_army_ocp_squadleader";
-					atlOffset=0.35896301;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=64;
-			atlOffset=0.35896301;
 		};
 		class Item25
 		{
@@ -1505,7 +1504,7 @@ class Mission
 						position[]={8544.1426,-62.528145,5562.063};
 					};
 					name="CTI_Logic";
-					init="this setVariable [""totalTowns"",61]; " \n "this setVariable [""Towns_RemovedXSmall"",[""""]]; " \n "this setVariable [""Towns_RemovedSmall"",[""""]]; this setVariable [""Towns_RemovedMedium"",[""""]]; " \n "this setVariable [""Towns_RemovedLarge"",[""""]]; nullReturn = [this] ExecVM ""Common\Init\Init_LocationMode.sqf""";
+					init="this setVariable [""totalTowns"",62]; " \n "this setVariable [""Towns_RemovedXSmall"",[""""]]; " \n "this setVariable [""Towns_RemovedSmall"",[""""]]; this setVariable [""Towns_RemovedMedium"",[""""]]; " \n "this setVariable [""Towns_RemovedLarge"",[""""]]; nullReturn = [this] ExecVM ""Common\Init\Init_LocationMode.sqf""";
 					id=363;
 					type="Logic";
 					atlOffset=84.010002;
@@ -1531,7 +1530,7 @@ class Mission
 			name="Towns";
 			class Entities
 			{
-				items=62;
+				items=63;
 				class Item0
 				{
 					dataType="Layer";
@@ -3292,31 +3291,28 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4930.2598,58.892155,11414.586};
-								angles[]={6.2007008,3.4765563,0.025324726};
+								position[]={4923.6411,58.893898,11412.411};
+								angles[]={6.2751846,3.7500763,0.1167993};
 							};
-							name="Town43_1";
-							init="nullReturn = [this, ""Panochori"", resistance, 10, 40, 400] execVM ""Common\Init\Init_Location.sqf""";
-							id=663;
-							type="LocationArea_F";
+							id=671;
+							type="LocationCamp_F";
+							atlOffset=0.0046691895;
 						};
 						class Item3
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={5267.7109,56.045059,11052.672};
-								angles[]={6.2007008,3.4765563,0.025324726};
+								position[]={5242.0752,54.509277,11060.896};
+								angles[]={6.2751846,3.7500763,0.1167993};
 							};
-							name="Town43_2";
-							init="nullReturn = [this, ""Panochori"", resistance, 10, 40, 400] execVM ""Common\Init\Init_Location.sqf""";
-							id=664;
-							type="LocationArea_F";
-							atlOffset=-3.8146973e-006;
+							id=672;
+							type="LocationCamp_F";
+							atlOffset=0.16814423;
 						};
 					};
 					id=521;
-					atlOffset=3.5249443;
+					atlOffset=4.4503708;
 				};
 				class Item44
 				{
@@ -3842,9 +3838,32 @@ class Mission
 					};
 					id=651;
 				};
+				class Item62
+				{
+					dataType="Layer";
+					name="Edessa";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={7244.3081,4.560009,11037.7};
+								angles[]={0.0013439035,3.4765563,0.033318337};
+							};
+							name="Town61";
+							init="nullReturn = [this, ""Edessa"", resistance, 10, 20, 200] execVM ""Common\Init\Init_Location.sqf""";
+							id=674;
+							type="LocationArea_F";
+						};
+					};
+					id=673;
+				};
 			};
 			id=262;
-			atlOffset=-32.244759;
+			atlOffset=-5.1350288;
 		};
 	};
 	class Connections
@@ -4909,7 +4928,7 @@ class Mission
 			class Item105
 			{
 				linkID=105;
-				item0=663;
+				item0=671;
 				item1=522;
 				class CustomData
 				{
@@ -4919,7 +4938,7 @@ class Mission
 			class Item106
 			{
 				linkID=106;
-				item0=664;
+				item0=672;
 				item1=522;
 				class CustomData
 				{
