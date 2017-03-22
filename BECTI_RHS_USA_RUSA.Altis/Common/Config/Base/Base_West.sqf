@@ -103,7 +103,7 @@ _helper = _helper			+ [[""]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
-_classes = _classes 		+ [["Land_Bunker_F", "Land_Factory_Tunnel_F"]];
+_classes = _classes 		+ [["Land_Bunker_F", "Land_Cargo40_military_green_F"]];
 _prices = _prices 			+ [2800];
 _times = _times 			+ [120];
 _placements = _placements 	+ [[180, 25]];
