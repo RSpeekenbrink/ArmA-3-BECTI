@@ -163,14 +163,18 @@ if (_attempts >= 500) then {
 		_model = _x select 0;
 		_equipment = _x select 1;
 		_var = missionNameSpace getVariable _model;
-		_script = _var select CTI_UNIT_SCRIPTS;
+		if(!(isNil "_var")) then {
+			_script = _var select CTI_UNIT_SCRIPTS;
+		};
 		
 		_vehicle = [_model, _startPos, 0, _side, false, true, true] call CTI_CO_FNC_CreateVehicle;
 		[_vehicle, getPos _hq, 45, 60, true, false, true] call CTI_CO_FNC_PlaceNear;
 		[_vehicle] spawn CTI_SE_FNC_HandleEmptyVehicle;
 		if (count _equipment > 0) then {[_vehicle, _equipment] call CTI_CO_FNC_EquipVehicleCargoSpace};
-		if (_script != "" && alive _vehicle) then {
-			[_vehicle, _side, _script, ""] spawn CTI_CO_FNC_InitializeCustomVehicle;
+		if(!(isNil "_script")) then {
+			if (_script != "" && alive _vehicle) then {
+				[_vehicle, _side, _script, ""] spawn CTI_CO_FNC_InitializeCustomVehicle;
+			};
 		};
 	} forEach (missionNamespace getVariable format["CTI_%1_Vehicles_Startup", _side]);
 	

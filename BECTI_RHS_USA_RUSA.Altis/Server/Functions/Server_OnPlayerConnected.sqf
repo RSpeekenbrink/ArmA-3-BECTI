@@ -7,7 +7,7 @@
 					Also note that the server (in MP) will also trigger this script with a name of __SERVER__
 	Author: 		Benny
 	Creation Date:	23-09-2013
-	Revision Date:	25-05-2014 (sari)
+	Revision Date:	25-05-2014 (sari), 22-03-2017 (fisher)
 	
   # PARAMETERS #
     0	[String]: The Player's UID
@@ -52,14 +52,16 @@ if !(_side in [west, east, resistance]) exitWith {if (CTI_Log_Level >= CTI_Log_E
 
 _logic = (_side) call CTI_CO_FNC_GetSideLogic;
 _teams = _logic getVariable "cti_teams";
-if !(_team in _teams) then {
-	[_team, _side] call CTI_SE_FNC_InitializeGroup;
-	
-	//--- The leader may had a disabled slot
-	if (CTI_Log_Level >= CTI_Log_Information) then {["INFORMATION", "FILE: Server\Functions\Server_OnPlayerConnected.sqf", format["Player [%1] [%2] does not belong to any CTI Groups on [%3]. Performed late-initialization and updated the Global Teams", _name, _uid, _side]] call CTI_CO_FNC_Log};
-	
-	//--- Update the global teams
-	_logic setVariable ["cti_teams", _teams - [objNull] + [_team], true];
+if(!(isNull _team)) then {
+	if !(_team in _teams) then {
+		[_team, _side] call CTI_SE_FNC_InitializeGroup;
+		
+		//--- The leader may had a disabled slot
+		if (CTI_Log_Level >= CTI_Log_Information) then {["INFORMATION", "FILE: Server\Functions\Server_OnPlayerConnected.sqf", format["Player [%1] [%2] does not belong to any CTI Groups on [%3]. Performed late-initialization and updated the Global Teams", _name, _uid, _side]] call CTI_CO_FNC_Log};
+		
+		//--- Update the global teams
+		_logic setVariable ["cti_teams", _teams - [objNull] + [_team], true];
+	};
 };
 
 //--- We force the unit out of it's vehicle.
