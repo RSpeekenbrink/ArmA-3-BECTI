@@ -29,12 +29,12 @@ class Params {
 		texts[] = {"2","4","6","8","10","12","14","16","18","20","22","24","26","28","30","35","40","45","50","60","70","80","90","100"};
 		default = 12;
 	};
-	class CTI_ARTILLERY_SETUP {
-		title = "ARTILLERY: Setup";
-		values[] = {-2,-1,0,1,2,3};
-		texts[] = {"Disabled","Ballistic Computer","Short","Medium","Long","Extreme"};
-		default = -1;
-	};
+	//class CTI_ARTILLERY_SETUP {
+	//	title = "ARTILLERY: Setup";
+	//	values[] = {-2,-1,0,1,2,3};
+	//	texts[] = {"Disabled","Ballistic Computer","Short","Medium","Long","Extreme"};
+	//	default = 1;
+	//};
 	class CTI_BASE_AREA_MAX {
 		title = "BASE: Areas Limit";
 		values[] = {0,1,2,3};
@@ -203,7 +203,7 @@ class Params {
 		title = "RESPAWN: Penalty";
 		values[] = {0,1,2,3,4};
 		texts[] = {"Disabled","Default Gear","Full Gear Price","1/2 Gear Price","1/4 Gear Price"};
-		default = 0;
+		default = 2;
 	};
 	class CTI_RESPAWN_FOB_RANGE {
 		title = "RESPAWN: FOB Range";
@@ -263,7 +263,7 @@ class Params {
 		title = "TOWNS: Resistance";
 		values[] = {0,1,2,3,4};
 		texts[] = {"Disabled","Light","Medium","Hard","Impossible"};
-		default = 1;
+		default = 2;
 	};
 	class CTI_UNITS_TOWN_PURCHASE {
 		title = "TOWNS: Purchase Infantry";
@@ -287,25 +287,25 @@ class Params {
 		title = "UNITS: Aircraft FFAR Rockets";
 		values[] = {0,1,2};
 		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_VEHICLES_AIR_AA {
 		title = "UNITS: Aircraft AA Missiles";
 		values[] = {0,1,2};
 		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_VEHICLES_AIR_AT {
 		title = "UNITS: Aircraft AT Missiles";
 		values[] = {0,1,2};
 		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_VEHICLES_AIR_CM {
 		title = "UNITS: Aircraft Countermeasures";
 		values[] = {0,1,2};
 		texts[] = {"Disabled","Enabled with Upgrade","Enabled"};
-		default = 2;
+		default = 1;
 	};
 	class CTI_VEHICLES_SALVAGE_INDEPENDENT_MAX {
 		title = "Units: Independent Salvager Limit";

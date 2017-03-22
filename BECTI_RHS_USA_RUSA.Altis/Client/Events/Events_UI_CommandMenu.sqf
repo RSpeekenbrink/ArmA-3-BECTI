@@ -13,7 +13,8 @@ switch (_action) do {
 			{((uiNamespace getVariable "cti_dialog_ui_commandmenu") displayCtrl _x) ctrlEnable false} forEach [210003,210004,210006,210008];
 		};
 		
-		if ((missionNamespace getVariable "CTI_ARTILLERY_SETUP") < 0) then {((uiNamespace getVariable "cti_dialog_ui_commandmenu") displayCtrl 210009) ctrlEnable false};
+		//if ((missionNamespace getVariable "CTI_ARTILLERY_SETUP") < 0) then {((uiNamespace getVariable "cti_dialog_ui_commandmenu") displayCtrl 210009) ctrlEnable false};
+		if (true) then {((uiNamespace getVariable "cti_dialog_ui_commandmenu") displayCtrl 210009) ctrlEnable false};
 		
 		((uiNamespace getVariable "cti_dialog_ui_commandmenu") displayCtrl 210003) ctrlSetPosition [SafeZoneX + (SafeZoneW * 0.21), SafeZoneY + (SafezoneH * 0.32), SafeZoneW * 0.28, SafeZoneH * 0.04]; ((uiNamespace getVariable "cti_dialog_ui_commandmenu") displayCtrl 210003) ctrlCommit 0;
 		((uiNamespace getVariable "cti_dialog_ui_commandmenu") displayCtrl 210004) ctrlSetPosition [SafeZoneX + (SafeZoneW * 0.21), SafeZoneY + (SafezoneH * 0.37), SafeZoneW * 0.28, SafeZoneH * 0.04]; ((uiNamespace getVariable "cti_dialog_ui_commandmenu") displayCtrl 210004) ctrlCommit 0;
