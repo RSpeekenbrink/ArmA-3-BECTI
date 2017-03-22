@@ -11,10 +11,10 @@ _classes = [];
 //--- Defenses (Statics)
 
 _headers = _headers 		+ ["MG"];
-_classes = _classes 		+ ["HS_M2StaticMG_MiniTripod_D"];
+_classes = _classes 		+ ["RHS_M2StaticMG_MiniTripod_D"];
 
 _headers = _headers 		+ ["MG"];
-_classes = _classes 		+ ["HS_M2StaticMG_D"];
+_classes = _classes 		+ ["RHS_M2StaticMG_D"];
 
 _headers = _headers 		+ ["GL"];
 _classes = _classes 		+ ["RHS_MK19_TriPod_D"];
