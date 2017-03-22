@@ -39,3 +39,15 @@ one) and setup the Parameters (Mission Options) by clicking on the parameters bu
 the server. If you want to play on your own or with all players on 1 team enabling AI Commander and AI teams is recommended.
 
 All required mods can be found on the Steam Workshop Page of the mission or in the Missions.text in the release ZIP/pbo's folder!
+
+## Issues
+Did you run into any issues? Please report it <a href="https://github.com/RSpeekenbrink/ArmA-3-BECTI/issues">here</a>! Thanks!
+
+## Cloning/Editing
+This is an Open Source project, Cloning and Editing of the templates to your desire is allowed, please name the authors of the template 
+(defined in the template authors section) and the original authors of some scripts found in the Thanks to section!
+
+## Thanks to:
+Bohemia Interactive (original Mission in A2)
+<a href="https://forums.bistudio.com/forums/topic/156917-spmp-becti/">Benny</a> (original A3 Version of CTI)
+Sari (Some updates for UI code)
