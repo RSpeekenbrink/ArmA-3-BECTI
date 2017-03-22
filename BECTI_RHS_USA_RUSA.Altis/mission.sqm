@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1550;
+		nextID=1615;
 	};
 	class Camera
 	{
@@ -3006,6 +3006,7 @@ class Mission
 							};
 							id=501;
 							type="LocationCamp_F";
+							atlOffset=-7.6293945e-006;
 						};
 						class Item2
 						{
@@ -3064,9 +3065,11 @@ class Mission
 							init="nullReturn = [this, ""Kore"", resistance, 20, 40, 500, 200] execVM ""Common\Init\Init_Location.sqf""";
 							id=506;
 							type="LocationArea_F";
+							atlOffset=-7.6293945e-006;
 						};
 					};
 					id=505;
+					atlOffset=-7.6293945e-006;
 				};
 				class Item39
 				{
@@ -3308,11 +3311,11 @@ class Mission
 							};
 							id=672;
 							type="LocationCamp_F";
-							atlOffset=0.16814423;
+							atlOffset=0.16801071;
 						};
 					};
 					id=521;
-					atlOffset=4.4503708;
+					atlOffset=5.6253204;
 				};
 				class Item44
 				{
@@ -3403,6 +3406,7 @@ class Mission
 							};
 							id=531;
 							type="LocationCamp_F";
+							atlOffset=-7.6293945e-006;
 						};
 					};
 					id=529;
@@ -3438,6 +3442,7 @@ class Mission
 							};
 							id=534;
 							type="LocationCamp_F";
+							atlOffset=-7.6293945e-006;
 						};
 					};
 					id=532;
@@ -3863,7 +3868,7 @@ class Mission
 				};
 			};
 			id=262;
-			atlOffset=-5.1350288;
+			atlOffset=-5.1350317;
 		};
 	};
 	class Connections

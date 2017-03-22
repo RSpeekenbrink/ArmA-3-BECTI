@@ -1,0 +1,12 @@
+*****************************************************************************
+---------------------RHS US ARMY - RUSSIAN ARMY ALTIS------------------------
+Needed Mods:
+
+- RHS United States Armed Forces (USAF) http://www.rhsmods.org
+
+- RHS Armed Forces of the Russian Federation (AFRF) http://www.rhsmods.org
+- RHS Green Forces (GREF) http://www.rhsmods.org
+Compatible (optional Mods):
+
+- TBA
+*****************************************************************************
