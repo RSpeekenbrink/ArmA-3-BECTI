@@ -706,6 +706,42 @@ _u = _u + [0];
 _f = _f + [CTI_FACTORY_AIR];
 _s = _s + [""];
 
+_c = _c + ['RHS_MELB_H6M'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [12000];
+_t = _t + [35];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_MELB_MH6M'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [14000];
+_t = _t + [35];
+_u = _u + [0];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_MELB_AH6M_L'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [22000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_MELB_AH6M_M'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [24000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
 _c = _c + ['RHS_AH64D_AA'];
 _p = _p + [''];
 _n = _n + [''];
@@ -773,6 +809,15 @@ _c = _c + ['RHS_AH64D_noradar'];
 _p = _p + [''];
 _n = _n + [''];
 _o = _o + [32000];
+_t = _t + [35];
+_u = _u + [1];
+_f = _f + [CTI_FACTORY_AIR];
+_s = _s + [""];
+
+_c = _c + ['RHS_MELB_AH6M_H'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [26000];
 _t = _t + [35];
 _u = _u + [1];
 _f = _f + [CTI_FACTORY_AIR];

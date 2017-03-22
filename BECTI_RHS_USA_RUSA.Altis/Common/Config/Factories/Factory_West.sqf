@@ -115,6 +115,11 @@ _u = _u		+ ["RHS_AH64D"];
 _u = _u		+ ["RHS_AH64D_noradar"];
 _u = _u		+ ["RHS_A10"];
 _u = _u		+ ["RHS_A10_AT"];
+_u = _u		+ ["RHS_MELB_H6M"];
+_u = _u		+ ["RHS_MELB_MH6M"];
+_u = _u		+ ["RHS_MELB_AH6M_L"];
+_u = _u		+ ["RHS_MELB_AH6M_M"];
+_u = _u		+ ["RHS_MELB_AH6M_H"];
 _u = _u		+ ["RHS_C130J"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
