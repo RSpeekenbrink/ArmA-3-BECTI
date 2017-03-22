@@ -1,8 +1,8 @@
 **Arma 3 Version:** `x.xx` (stable / rc / dev)
 
 **Mods:**
-- `@RHSUSAF 0.4.2.1`
-- `@RHSAFRF 0.4.2.1`
+- `@RHSUSAF`
+- `@RHSAFRF`
 
 **Description:**
 - Add a detailed description of the error. This makes it easier for us to fix the issue.
