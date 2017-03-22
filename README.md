@@ -12,7 +12,7 @@
     <img src=https://img.shields.io/github/issues/RSpeekenbrink/ArmA-3-BECTI.svg?label=Open%20Issues&style=plastic> 
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/Missions%20Available-1-red.svg?style=plastic">
+    <img src="https://img.shields.io/badge/Missions%20Available-1-ff00fa.svg?style=plastic">
   </a>
 </p>
 
