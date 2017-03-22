@@ -48,6 +48,6 @@ This is an Open Source project, Cloning and Editing of the templates to your des
 (defined in the template authors section) and the original authors of some scripts found in the Thanks to section!
 
 ## Thanks to:
-Bohemia Interactive (original Mission in A2)
-<a href="https://forums.bistudio.com/forums/topic/156917-spmp-becti/">Benny</a> (original A3 Version of CTI)
-Sari (Some updates for UI code)
+- Bohemia Interactive (original Mission in A2)
+- <a href="https://forums.bistudio.com/forums/topic/156917-spmp-becti/">Benny</a> (original A3 Version of CTI)
+- Sari (Some updates for UI code)
