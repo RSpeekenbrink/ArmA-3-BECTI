@@ -11,7 +11,7 @@ switch (_action) do {
 		
 _helps = [
 "<t size='1.4' color='#2394ef'>Introduction</t><br /><br />
-<t><t color='#ffec1c'>CTI</t> (<t color='#ffec1c'>Conquer The Island</t>) is a gamemode where two sides, West and East fight for the control of an island.</t><br /><br />
+<t><t color='#ffec1c'>CTI</t> (<t color='#ffec1c'>Capture The Island</t>) is a gamemode where two sides, West and East fight for the control of an island.</t><br /><br />
 Each side are led by a <t color='#e8bd12'>Commander</t> which may construct a base thanks to the <t color='#e8bd12'>MHQ</t>.<br /><br />
 As soon as the base is available, you may decide to reinforce your team by purchasing additional units and vehicles.<br /><br />
 Keep in mind that the <t color='#e8bd12'>Commander</t> may assign assign different tasks to your team.<br /><br />
