@@ -173,9 +173,9 @@ if (CTI_IsClient) then {
 	
 	//--- Center marker
 	_marker = createMarkerLocal [format ["cti_town_marker_%1", _town], getPos _town];
-	_marker setMarkerTypeLocal "o_unknown";
+	_marker setMarkerTypeLocal "mil_flag";
 	_marker setMarkerColorLocal _coloration;
-	_marker setMarkerSizeLocal [0.8, 0.8];
+	_marker setMarkerSizeLocal [0.6, 0.6];
 	
 	//--- Camp markers
 	{
