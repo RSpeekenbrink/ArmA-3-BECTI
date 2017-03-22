@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=663;
+		nextID=665;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1421;
+		nextID=1549;
 	};
 	class Camera
 	{
-		pos[]={3918.6755,131.63298,11619.406};
-		dir[]={-0.60203946,-0.79851794,0.0045085577};
-		up[]={-0.79849279,0.60197383,0.0059798374};
-		aside[]={0.0074872798,5.3987605e-008,1.0000213};
+		pos[]={11115.338,95.430809,14546.878};
+		dir[]={0.42103067,-0.78386104,-0.4564895};
+		up[]={0.53144979,0.62092876,-0.57620704};
+		aside[]={-0.7351163,7.1158865e-009,-0.67801309};
 	};
 };
 binarizationWanted=0;
@@ -1614,11 +1614,12 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={26788.471,19.716503,23114.406};
+								position[]={26788.471,19.716505,23114.406};
 								angles[]={6.2299037,3.4099505,6.2778587};
 							};
 							id=367;
 							type="LocationCamp_F";
+							atlOffset=1.9073486e-006;
 						};
 						class Item3
 						{
@@ -1633,7 +1634,7 @@ class Mission
 						};
 					};
 					id=364;
-					atlOffset=-4.7681694;
+					atlOffset=-4.7681675;
 				};
 				class Item2
 				{
@@ -1786,11 +1787,12 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={21050.023,16.021881,19240.719};
+								position[]={21050.023,16.021879,19240.719};
 								angles[]={6.2418771,3.7500763,6.2352238};
 							};
 							id=384;
 							type="LocationCamp_F";
+							atlOffset=-1.9073486e-006;
 						};
 					};
 					id=382;
@@ -1808,25 +1810,25 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={20958.404,50.90876,16974.412};
+								position[]={20958.404,41.864471,16974.412};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town7";
 							init="nullReturn = [this, ""Paros"", resistance, 10, 75, 700] execVM ""Common\Init\Init_Location.sqf""";
 							id=386;
 							type="LocationArea_F";
-							atlOffset=9.0442886;
 						};
 						class Item1
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={20784.184,55.620083,17031.676};
+								position[]={20784.184,55.620087,17031.676};
 								angles[]={0.091741346,3.7500763,6.2738504};
 							};
 							id=387;
 							type="LocationCamp_F";
+							atlOffset=3.8146973e-006;
 						};
 						class Item2
 						{
@@ -1844,15 +1846,16 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={21191.611,29.731264,17103.91};
+								position[]={21191.611,29.731262,17103.91};
 								angles[]={6.2365522,3.7500763,6.1835165};
 							};
 							id=389;
 							type="LocationCamp_F";
+							atlOffset=-1.9073486e-006;
 						};
 					};
 					id=385;
-					atlOffset=-0.45033646;
+					atlOffset=-1.5808716;
 				};
 				class Item8
 				{
@@ -1866,14 +1869,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={21348.43,30.308449,16385.193};
+								position[]={21348.43,21.27545,16385.193};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town8";
 							init="nullReturn = [this, ""Kalochori"", resistance, 10, 60, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=391;
 							type="LocationArea_F";
-							atlOffset=9.032999;
 						};
 						class Item1
 						{
@@ -1899,7 +1901,7 @@ class Mission
 						};
 					};
 					id=390;
-					atlOffset=3.3627663;
+					atlOffset=1.1045151;
 				};
 				class Item9
 				{
@@ -1938,14 +1940,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={18783.201,41.891891,16648.58};
+								position[]={18783.201,32.853889,16648.58};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town10";
 							init="nullReturn = [this, ""Rodopoli"", resistance, 10, 50, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=398;
 							type="LocationArea_F";
-							atlOffset=9.038002;
 						};
 						class Item1
 						{
@@ -1971,7 +1972,7 @@ class Mission
 						};
 					};
 					id=397;
-					atlOffset=2.7186775;
+					atlOffset=0.45917892;
 				};
 				class Item11
 				{
@@ -1985,14 +1986,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={18189.76,34.383667,15229.389};
+								position[]={18189.76,25.353668,15229.389};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town11";
 							init="nullReturn = [this, ""Charkia"", resistance, 30, 70, 600, 800] execVM ""Common\Init\Init_Location.sqf""";
 							id=402;
 							type="LocationArea_F";
-							atlOffset=9.0299988;
 						};
 						class Item1
 						{
@@ -2032,16 +2032,15 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={18364.701,28.155909,15275.301};
+								position[]={18364.701,28.144579,15275.301};
 								angles[]={6.2791886,3.7500763,6.2818484};
 							};
 							id=406;
 							type="LocationCamp_F";
-							atlOffset=0.011329651;
 						};
 					};
 					id=401;
-					atlOffset=3.5343513;
+					atlOffset=2.9643097;
 				};
 				class Item12
 				{
@@ -2055,25 +2054,25 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={19410.064,48.189251,13245.573};
+								position[]={19410.064,39.113251,13245.573};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town12";
 							init="nullReturn = [this, ""Dorida"", resistance, 10, 50, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=408;
 							type="LocationArea_F";
-							atlOffset=9.0760002;
 						};
 						class Item1
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={19294.93,40.345165,13158.438};
+								position[]={19294.93,40.345169,13158.438};
 								angles[]={0.06656827,3.4099505,6.2192721};
 							};
 							id=409;
 							type="LocationCamp_F";
+							atlOffset=3.8146973e-006;
 						};
 						class Item2
 						{
@@ -2088,7 +2087,7 @@ class Mission
 						};
 					};
 					id=407;
-					atlOffset=0.048873901;
+					atlOffset=-2.2201233;
 				};
 				class Item13
 				{
@@ -2102,14 +2101,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={20281.285,57.297607,11717.023};
+								position[]={20281.285,48.304607,11717.023};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town13";
 							init="nullReturn = [this, ""Chalkeia"", resistance, 10, 60, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=412;
 							type="LocationArea_F";
-							atlOffset=8.993;
 						};
 						class Item1
 						{
@@ -2135,7 +2133,7 @@ class Mission
 						};
 					};
 					id=411;
-					atlOffset=-11.241371;
+					atlOffset=-13.48962;
 				};
 				class Item14
 				{
@@ -2173,11 +2171,12 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={16668.049,16.982792,12665.621};
+								position[]={16668.049,16.98279,12665.621};
 								angles[]={6.2498641,3.4099505,0.027993103};
 							};
 							id=418;
 							type="LocationCamp_F";
+							atlOffset=-1.9073486e-006;
 						};
 						class Item3
 						{
@@ -2231,14 +2230,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={21658.498,14.386235,7593.2559};
+								position[]={21658.498,14.370235,7593.2559};
 								angles[]={6.2578607,3.4765563,6.2725215};
 							};
 							name="Town16";
 							init="nullReturn = [this, ""Feres"", resistance, 30, 50, 500, 200] execVM ""Common\Init\Init_Location.sqf""";
 							id=423;
 							type="LocationArea_F";
-							atlOffset=0.015999794;
 						};
 						class Item1
 						{
@@ -2256,16 +2254,15 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={21566.041,13.892794,7785.1484};
+								position[]={21566.041,13.894125,7785.1484};
 								angles[]={6.2551923,3.4099505,6.200706};
 							};
 							id=425;
 							type="LocationCamp_F";
-							atlOffset=-0.0013313293;
 						};
 					};
 					id=422;
-					atlOffset=0.18237686;
+					atlOffset=0.17904282;
 				};
 				class Item17
 				{
@@ -2325,16 +2322,18 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={20848.627,26.465828,7308.3398};
+								position[]={20848.627,26.46583,7308.3398};
 								angles[]={0.06656827,3.4765563,6.2405448};
 							};
 							name="Town18";
 							init="nullReturn = [this, ""Selakano Airbase"", resistance, 10, 30, 350, 200] execVM ""Common\Init\Init_Location.sqf""";
 							id=431;
 							type="LocationArea_F";
+							atlOffset=1.9073486e-006;
 						};
 					};
 					id=430;
+					atlOffset=1.9073486e-006;
 				};
 				class Item19
 				{
@@ -2371,14 +2370,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={16300.421,33.740547,17193.293};
+								position[]={16300.421,21.550798,17193.293};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town20";
 							init="nullReturn = [this, ""Telos"", resistance, 40, 50, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=443;
 							type="LocationArea_F";
-							atlOffset=12.189749;
 						};
 						class Item1
 						{
@@ -2396,27 +2394,27 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={16324.924,16.367006,17053.887};
+								position[]={16324.924,16.367008,17053.887};
 								angles[]={6.2605257,3.7500763,0.014660771};
 							};
 							id=445;
 							type="LocationCamp_F";
+							atlOffset=1.9073486e-006;
 						};
 						class Item3
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={16546.039,28.886156,17457.564};
+								position[]={16546.039,28.86816,17457.564};
 								angles[]={6.2605257,3.7500763,0.014660771};
 							};
 							id=446;
 							type="LocationCamp_F";
-							atlOffset=0.017995834;
 						};
 					};
 					id=442;
-					atlOffset=-1.4268074;
+					atlOffset=-2.9595242;
 				};
 				class Item21
 				{
@@ -2453,14 +2451,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={14555.34,30.099998,16766.5};
+								position[]={14555.34,17.91,16766.5};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town22";
 							init="nullReturn = [this, ""Altis Int. Airport"", resistance, 60, 80, 1000] execVM ""Common\Init\Init_Location.sqf""";
 							id=450;
 							type="LocationArea_F";
-							atlOffset=12.189999;
 						};
 						class Item1
 						{
@@ -2497,7 +2494,7 @@ class Mission
 						};
 					};
 					id=449;
-					atlOffset=1.6095924;
+					atlOffset=0.085842133;
 				};
 				class Item23
 				{
@@ -2511,8 +2508,8 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={14492.23,21.352486,17657.301};
-								angles[]={0.0053407075,3.4765563,0.11810643};
+								position[]={14526.165,22.378887,17676.244};
+								angles[]={0.033321146,3.4765563,0.05461248};
 							};
 							name="Town23";
 							init="nullReturn = [this, ""Gravia"", resistance, 10, 30, 400, 200] execVM ""Common\Init\Init_Location.sqf""";
@@ -2534,14 +2531,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={13934.765,45.093681,18726.641};
-								angles[]={0,3.4765563,0};
+								position[]={14041.233,25.843567,18744.947};
+								angles[]={0.038646095,3.4765563,0.0066592805};
 							};
 							name="Town24";
 							init="nullReturn = [this, ""Athira"", resistance, 10, 40, 700] execVM ""Common\Init\Init_Location.sqf""";
 							id=457;
 							type="LocationArea_F";
-							atlOffset=21.848999;
 						};
 						class Item1
 						{
@@ -2578,7 +2574,7 @@ class Mission
 						};
 					};
 					id=456;
-					atlOffset=2.6000824;
+					atlOffset=-1.3812733;
 				};
 				class Item25
 				{
@@ -2615,8 +2611,8 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={12777.877,47.706013,19703.127};
-								angles[]={6.2805324,3.4765563,0.0026529003};
+								position[]={12819.307,45.982548,19687.355};
+								angles[]={6.2192731,3.4765563,0.012000273};
 							};
 							name="Town26";
 							init="nullReturn = [this, ""Ifestiona"", resistance, 5, 15, 250, 200] execVM ""Common\Init\Init_Location.sqf""";
@@ -2638,25 +2634,25 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={12328.616,33.019279,15682.747};
+								position[]={12328.616,23.987993,15682.747};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town27";
 							init="nullReturn = [this, ""Lakka"", resistance, 10, 50, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=468;
 							type="LocationArea_F";
-							atlOffset=9.0312862;
 						};
 						class Item1
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={12217.335,22.01614,15530.131};
+								position[]={12217.335,22.016138,15530.131};
 								angles[]={0.049292382,3.4099505,0.0039967569};
 							};
 							id=469;
 							type="LocationCamp_F";
+							atlOffset=-1.9073486e-006;
 						};
 						class Item2
 						{
@@ -2671,7 +2667,7 @@ class Mission
 						};
 					};
 					id=467;
-					atlOffset=3.5029774;
+					atlOffset=1.2451553;
 				};
 				class Item28
 				{
@@ -2685,14 +2681,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={13078.311,30.268002,15026.336};
+								position[]={13078.311,21.134001,15026.336};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town28";
 							init="nullReturn = [this, ""Stavros"", resistance, 10, 30, 300] execVM ""Common\Init\Init_Location.sqf""";
 							id=472;
 							type="LocationArea_F";
-							atlOffset=9.1340008;
 						};
 						class Item1
 						{
@@ -2710,15 +2705,16 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={13091.38,18.564295,15192.859};
+								position[]={13091.38,18.564297,15192.859};
 								angles[]={0.017332481,3.7500763,6.2618537};
 							};
 							id=474;
 							type="LocationCamp_F";
+							atlOffset=1.9073486e-006;
 						};
 					};
 					id=471;
-					atlOffset=2.770628;
+					atlOffset=0.48713112;
 				};
 				class Item29
 				{
@@ -2732,14 +2728,14 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={12432.232,17.434282,14323.324};
+								position[]={12432.232,8.3602819,14323.324};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town29";
 							init="nullReturn = [this, ""Neochori"", resistance, 10, 50, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=476;
 							type="LocationArea_F";
-							atlOffset=9.0740013;
+							atlOffset=9.5367432e-007;
 						};
 						class Item1
 						{
@@ -2757,15 +2753,16 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={12770.721,11.120121,14384.981};
+								position[]={12770.721,11.120119,14384.981};
 								angles[]={6.1980581,3.7500763,6.1703334};
 							};
 							id=478;
 							type="LocationCamp_F";
+							atlOffset=-1.9073486e-006;
 						};
 					};
 					id=475;
-					atlOffset=0.22754955;
+					atlOffset=-2.0409517;
 				};
 				class Item30
 				{
@@ -2779,41 +2776,40 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={10882.266,41.525993,13487.501};
+								position[]={10882.266,32.528992,13487.501};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town30";
 							init="nullReturn = [this, ""Poliakko"", resistance, 10, 50, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=480;
 							type="LocationArea_F";
-							atlOffset=8.9970016;
 						};
 						class Item1
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={10870.121,31.571499,13244.498};
+								position[]={10870.121,31.571501,13244.498};
 								angles[]={6.2445378,3.4099505,0.034652505};
 							};
 							id=481;
 							type="LocationCamp_F";
+							atlOffset=1.9073486e-006;
 						};
 						class Item2
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={11244.448,22.654469,13472.097};
+								position[]={11244.448,18.903419,13472.097};
 								angles[]={0,3.7500763,0};
 							};
 							id=482;
 							type="LocationCamp_F";
-							atlOffset=3.751049;
 						};
 					};
 					id=479;
-					atlOffset=5.4049015;
+					atlOffset=1.2801285;
 				};
 				class Item31
 				{
@@ -2852,14 +2848,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={11133.281,50.369675,14560.758};
-								angles[]={0,3.4765563,0};
+								position[]={11144.749,36.317459,14512.707};
+								angles[]={6.2073317,3.4765563,6.2365537};
 							};
 							name="Town32";
 							init="nullReturn = [this, ""Alikampos"", resistance, 10, 50, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=486;
 							type="LocationArea_F";
-							atlOffset=9.1349983;
 						};
 						class Item1
 						{
@@ -2885,7 +2880,7 @@ class Mission
 						};
 					};
 					id=485;
-					atlOffset=-0.83815765;
+					atlOffset=-2.5268517;
 				};
 				class Item33
 				{
@@ -2922,29 +2917,29 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={9053.6211,30.456219,11963.664};
+								position[]={9053.6211,21.471218,11963.664};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town34";
 							init="nullReturn = [this, ""Zaros"", resistance, 10, 50, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=492;
 							type="LocationArea_F";
-							atlOffset=8.9850006;
 						};
 						class Item1
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={9250.3164,15.188731,11961.41};
+								position[]={9250.3164,15.18873,11961.41};
 								angles[]={0,3.4099505,6.2791886};
 							};
 							id=493;
 							type="LocationCamp_F";
+							atlOffset=-9.5367432e-007;
 						};
 					};
 					id=491;
-					atlOffset=5.1247807;
+					atlOffset=0.63228035;
 				};
 				class Item35
 				{
@@ -2958,14 +2953,13 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={11600.949,32.583412,11981.076};
+								position[]={11600.949,23.597298,11981.076};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town35";
 							init="nullReturn = [this, ""AAC Airfield"", resistance, 10, 70, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=497;
 							type="LocationArea_F";
-							atlOffset=8.9861145;
 						};
 						class Item1
 						{
@@ -2980,7 +2974,7 @@ class Mission
 						};
 					};
 					id=496;
-					atlOffset=4.4819221;
+					atlOffset=-0.011135101;
 				};
 				class Item36
 				{
@@ -2994,14 +2988,14 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={9296.3369,132.75827,15929.012};
+								position[]={9296.3369,115.79826,15929.012};
 								angles[]={0,3.4765563,0};
 							};
 							name="Town36";
 							init="nullReturn = [this, ""Agios Dionysios"", resistance, 10, 50, 600] execVM ""Common\Init\Init_Location.sqf""";
 							id=500;
 							type="LocationArea_F";
-							atlOffset=16.960014;
+							atlOffset=7.6293945e-006;
 						};
 						class Item1
 						{
@@ -3013,7 +3007,6 @@ class Mission
 							};
 							id=501;
 							type="LocationCamp_F";
-							atlOffset=-7.6293945e-006;
 						};
 						class Item2
 						{
@@ -3028,7 +3021,7 @@ class Mission
 						};
 					};
 					id=499;
-					atlOffset=-4.6411819;
+					atlOffset=-8.8811798;
 				};
 				class Item37
 				{
@@ -3101,11 +3094,12 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4762.0205,79.306686,16171.634};
+								position[]={4762.0205,79.306694,16171.634};
 								angles[]={0.16385107,3.4099505,6.2685208};
 							};
 							id=509;
 							type="LocationCamp_F";
+							atlOffset=7.6293945e-006;
 						};
 					};
 					id=507;
@@ -3123,13 +3117,14 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={3650.0681,10.247305,13121.74};
-								angles[]={-0,3.4765563,0.0093286335};
+								position[]={3650.0681,10.247306,13121.74};
+								angles[]={0,3.4765563,0.0093286335};
 							};
 							name="Town40";
 							init="nullReturn = [this, ""Kavala"", resistance, 60, 80, 1000] execVM ""Common\Init\Init_Location.sqf""";
 							id=511;
 							type="LocationArea_F";
+							atlOffset=9.5367432e-007;
 						};
 						class Item1
 						{
@@ -3239,11 +3234,12 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4101.9971,22.483355,11551.02};
+								position[]={4101.9971,22.483353,11551.02};
 								angles[]={6.129735,3.4099505,0.14693315};
 							};
 							id=661;
 							type="LocationCamp_F";
+							atlOffset=-1.9073486e-006;
 						};
 						class Item2
 						{
@@ -3266,20 +3262,19 @@ class Mission
 					name="Panochori";
 					class Entities
 					{
-						items=2;
+						items=4;
 						class Item0
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={5096.0698,49.888386,11255.604};
-								angles[]={6.1115494,3.4765563,0.012007865};
+								position[]={5127.001,54.534248,11306.373};
+								angles[]={6.2007008,3.4765563,0.025324726};
 							};
 							name="Town43";
-							init="nullReturn = [this, ""NPanochori"", resistance, 10, 40, 400] execVM ""Common\Init\Init_Location.sqf""";
+							init="nullReturn = [this, ""Panochori"", resistance, 10, 40, 400] execVM ""Common\Init\Init_Location.sqf""";
 							id=522;
 							type="LocationArea_F";
-							atlOffset=0.016998291;
 						};
 						class Item1
 						{
@@ -3292,9 +3287,36 @@ class Mission
 							id=523;
 							type="LocationCamp_F";
 						};
+						class Item2
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={4930.2598,58.892155,11414.586};
+								angles[]={6.2007008,3.4765563,0.025324726};
+							};
+							name="Town43_1";
+							init="nullReturn = [this, ""Panochori"", resistance, 10, 40, 400] execVM ""Common\Init\Init_Location.sqf""";
+							id=663;
+							type="LocationArea_F";
+						};
+						class Item3
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={5267.7109,56.045059,11052.672};
+								angles[]={6.2007008,3.4765563,0.025324726};
+							};
+							name="Town43_2";
+							init="nullReturn = [this, ""Panochori"", resistance, 10, 40, 400] execVM ""Common\Init\Init_Location.sqf""";
+							id=664;
+							type="LocationArea_F";
+							atlOffset=-3.8146973e-006;
+						};
 					};
 					id=521;
-					atlOffset=-1.8787994;
+					atlOffset=3.5249443;
 				};
 				class Item44
 				{
@@ -3344,8 +3366,8 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={10434.16,83.706703,17239.311};
-								angles[]={6.2431998,3.4765563,0.038641591};
+								position[]={10455.496,85.966003,17279.086};
+								angles[]={6.2099838,3.4765563,0.086449943};
 							};
 							name="Town45";
 							init="nullReturn = [this, ""Orino"", resistance, 20, 20, 500, 200] execVM ""Common\Init\Init_Location.sqf""";
@@ -3385,7 +3407,6 @@ class Mission
 							};
 							id=531;
 							type="LocationCamp_F";
-							atlOffset=-7.6293945e-006;
 						};
 					};
 					id=529;
@@ -3421,7 +3442,6 @@ class Mission
 							};
 							id=534;
 							type="LocationCamp_F";
-							atlOffset=-7.6293945e-006;
 						};
 					};
 					id=532;
@@ -3452,11 +3472,12 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={9019.6533,18.893921,21291.014};
+								position[]={9019.6533,18.893923,21291.014};
 								angles[]={0.029324362,3.4099505,6.272521};
 							};
 							id=537;
 							type="LocationCamp_F";
+							atlOffset=1.9073486e-006;
 						};
 					};
 					id=535;
@@ -3487,39 +3508,38 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4957.2036,330.03958,21849.174};
+								position[]={4957.2036,330.03955,21849.174};
 								angles[]={6.2046809,3.4099505,0.041309625};
 							};
 							id=540;
 							type="LocationCamp_F";
+							atlOffset=-3.0517578e-005;
 						};
 						class Item2
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4381.1235,255.38066,21284.766};
+								position[]={4381.1235,255.27577,21284.766};
 								angles[]={6.2046809,3.4099505,0.041309625};
 							};
 							id=541;
 							type="LocationCamp_F";
-							atlOffset=0.10488892;
 						};
 						class Item3
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4565.0952,294.60727,21856.068};
+								position[]={4565.0952,294.61792,21856.068};
 								angles[]={6.2046809,3.4099505,0.041309625};
 							};
 							id=542;
 							type="LocationCamp_F";
-							atlOffset=-0.010650635;
 						};
 					};
 					id=538;
-					atlOffset=10.813721;
+					atlOffset=10.792786;
 				};
 				class Item50
 				{
@@ -3558,16 +3578,15 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={3908.3386,16.698996,17412.484};
+								position[]={3908.3386,16.570946,17412.484};
 								angles[]={6.2206001,3.4099505,0.090419561};
 							};
 							id=546;
 							type="LocationCamp_F";
-							atlOffset=0.12804985;
 						};
 					};
 					id=543;
-					atlOffset=0.72444916;
+					atlOffset=0.66042423;
 				};
 				class Item51
 				{
@@ -3581,18 +3600,16 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={11796.374,51.565983,18367.313};
-								angles[]={6.2698507,3.4765563,0.013334315};
+								position[]={11800.147,51.780437,18353.27};
+								angles[]={0.046634447,3.4765563,6.1914434};
 							};
 							name="Town51";
 							init="nullReturn = [this, ""Koroni"", resistance, 20, 20, 250, 200] execVM ""Common\Init\Init_Location.sqf""";
 							id=548;
 							type="LocationArea_F";
-							atlOffset=-0.021003723;
 						};
 					};
 					id=547;
-					atlOffset=-0.021003723;
 				};
 				class Item52
 				{
@@ -3619,11 +3636,12 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={6094.6099,25.053673,15006.596};
+								position[]={6094.6099,25.053675,15006.596};
 								angles[]={0.019996032,3.4099505,0.10494626};
 							};
 							id=634;
 							type="LocationCamp_F";
+							atlOffset=1.9073486e-006;
 						};
 					};
 					id=635;
@@ -3648,18 +3666,18 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={9197.8047,40.890572,13723.506};
+								position[]={9197.8047,40.89357,13723.506};
 								angles[]={0.066566855,3.4765563,6.2405472};
 							};
 							name="Town53";
 							init="nullReturn = [this, ""Xirolinmi Dam"", resistance, 10, 30, 350, 200] execVM ""Common\Init\Init_Location.sqf""";
 							id=638;
 							type="LocationArea_F";
-							atlOffset=-0.0030021667;
+							atlOffset=-3.8146973e-006;
 						};
 					};
 					id=637;
-					atlOffset=-0.0030021667;
+					atlOffset=-3.8146973e-006;
 				};
 				class Item55
 				{
@@ -3767,18 +3785,16 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={11551.449,19.60232,9417.627};
+								position[]={11551.449,19.635321,9417.627};
 								angles[]={0.066566855,3.4765563,6.2405472};
 							};
 							name="Town59";
 							init="nullReturn = [this, ""Vikos"", resistance, 10, 30, 350, 200] execVM ""Common\Init\Init_Location.sqf""";
 							id=648;
 							type="LocationArea_F";
-							atlOffset=-0.033000946;
 						};
 					};
 					id=647;
-					atlOffset=-0.033000946;
 				};
 				class Item60
 				{
@@ -3792,18 +3808,16 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={17062.512,20.744896,10010.867};
+								position[]={17062.512,20.752895,10010.867};
 								angles[]={6.2698507,3.4765563,0.013334315};
 							};
 							name="Town55";
 							init="nullReturn = [this, ""Ekali"", resistance, 20, 40, 500, 200] execVM ""Common\Init\Init_Location.sqf""";
 							id=650;
 							type="LocationArea_F";
-							atlOffset=-0.0079994202;
 						};
 					};
 					id=649;
-					atlOffset=-0.0079994202;
 				};
 				class Item61
 				{
@@ -3830,18 +3844,18 @@ class Mission
 				};
 			};
 			id=262;
-			atlOffset=-32.251152;
+			atlOffset=-32.244759;
 		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=105;
+			nextID=107;
 		};
 		class Links
 		{
-			items=105;
+			items=107;
 			class Item0
 			{
 				linkID=0;
@@ -4887,6 +4901,26 @@ class Mission
 				linkID=104;
 				item0=662;
 				item1=520;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item105
+			{
+				linkID=105;
+				item0=663;
+				item1=522;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item106
+			{
+				linkID=106;
+				item0=664;
+				item1=522;
 				class CustomData
 				{
 					type="Sync";

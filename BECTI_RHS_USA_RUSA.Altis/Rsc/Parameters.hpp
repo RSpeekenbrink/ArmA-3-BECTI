@@ -317,13 +317,13 @@ class Params {
 		title = "UNITS: Show Map Infantry";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 1;
+		default = 0;
 	};
 	class CTI_UNITS_FATIGUE {
 		title = "UNITS: Fatigue";
 		values[] = {0,1};
 		texts[] = {"Disabled","Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_VEHICLES_EMPTY_TIMEOUT {
 		title = "UNITS: Vehicles Reycling Delay";
