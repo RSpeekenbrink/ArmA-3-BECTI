@@ -1154,6 +1154,126 @@ _i = _i		+ ["rhsusf_mich_bare_tan"];
 _u = _u		+ [3];
 _p = _p		+ [7];
 
+_i = _i		+ ["rhsusf_mich_bare_alt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_alt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_alt_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_alt"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_alt_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_semi"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_alt_semi"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_semi_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_semi"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_alt_semi"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_alt_semi_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_semi"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_alt_semi"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_alt_semi_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_semi_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_semi_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_alt_tan"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_tan_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_tan"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_alt_tan"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_alt_tan_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_tan"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_alt_tan"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_arc_alt_tan_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
+_i = _i		+ ["rhsusf_mich_bare_norotos_tan_headset"];
+_u = _u		+ [3];
+_p = _p		+ [7];
+
 //--- Accessories
 _i = _i		+ ["optic_arco"];
 _u = _u		+ [0];
