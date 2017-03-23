@@ -2,66 +2,66 @@ private ["_side", "_u"];
 
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_Commander", _side], "O_officer_F"];
-missionNamespace setVariable [format["CTI_%1_Worker", _side], "O_Soldier_unarmed_F"];
+missionNamespace setVariable [format["CTI_%1_Commander", _side], "rhs_msv_emr_officer"];
+missionNamespace setVariable [format["CTI_%1_Worker", _side], "rhs_msv_emr_crew"];
 
 missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_diver_F"];
-missionNamespace setVariable [format["CTI_%1_Soldier", _side], "O_Soldier_F"];
-missionNamespace setVariable [format["CTI_%1_Crew", _side], "O_crew_F"];
-missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_Helipilot_F"];
+missionNamespace setVariable [format["CTI_%1_Soldier", _side], "rhs_msv_emr_rifleman"];
+missionNamespace setVariable [format["CTI_%1_Crew", _side], "rhs_msv_emr_combatcrew"];
+missionNamespace setVariable [format["CTI_%1_Pilot", _side], "rhs_pilot_combat_heli"];
 missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "O_UAV_AI"];
 missionNamespace setVariable [Format["CTI_%1FLAG", _side], "\rhsafrf\addons\rhs_main\data\Flag_rus_CO.paa"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-	["O_T_LSV_02_armed_F", [
-		["arifle_Katiba_GL_F", 2], ["30rnd_65x39_caseless_green", 50],
-		["arifle_Mk20_F", 2], ["30rnd_556x45_stanag", 25],
-		["launch_RPG32_F", 3], ["RPG32_F", 12], 
-		["HandGrenade", 20], 
+	["rhs_prp3_msv", [
+		["rhs_weap_ak74m", 2], ["rhs_30Rnd_762x39mm", 50],
+		["rhs_weap_akm", 2], ["rhs_30Rnd_762x39mm_tracer", 25],
+		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 12], 
+		["rhs_mag_rgo", 20], 
 		["firstaidkit", 20],
-		["acc_flashlight", 5],
-		["optic_ACO_grn", 3],
+		["rhs_acc_1p29", 5],
+		["rhs_acc_ekp1", 3],
 		["optic_Holosight", 2],
-		["optic_MRCO", 1]
+		["rhs_acc_pso1m2", 1]
 	]], 
-	["O_T_LSV_02_armed_F", [
-		["arifle_Katiba_GL_F", 2], ["30rnd_65x39_caseless_green", 50],
-		["arifle_Mk20_F", 2], ["30rnd_556x45_stanag", 25],
-		["launch_RPG32_F", 3], ["RPG32_F", 12], 
-		["HandGrenade", 20], 
+	["RHS_Ural_Open_MSV_01", [
+		["rhs_weap_ak74m", 2], ["rhs_30Rnd_762x39mm", 50],
+		["rhs_weap_akm", 2], ["rhs_30Rnd_762x39mm_tracer", 25],
+		["rhs_weap_rpg7", 3], ["rhs_rpg7_PG7V_mag", 12], 
+		["rhs_mag_rgo", 20], 
 		["firstaidkit", 20],
-		["acc_flashlight", 5],
-		["optic_ACO_grn", 3],
+		["rhs_acc_1p29", 5],
+		["rhs_acc_ekp1", 3],
 		["optic_Holosight", 2],
-		["optic_MRCO", 1]
+		["rhs_acc_pso1m2", 1]
 	]]
 ]];
 
 //--- Units - Barracks
-_u 			= ["O_T_soldier_AR_F"];
-_u = _u		+ ["O_T_Soldier_A_F"];
-_u = _u		+ ["O_T_soldier_exp_F"];
-_u = _u		+ ["O_T_Soldier_GL_F"];
-_u = _u		+ ["O_T_HeavyGunner_F"];
-_u = _u		+ ["O_T_soldier_M_F"];
-_u = _u		+ ["O_T_medic_F"];
-_u = _u		+ ["O_T_Soldier_F"];
-_u = _u		+ ["O_T_soldier_PG_F"];
-_u = _u		+ ["O_T_Soldier_lite_F"];
-_u = _u		+ ["O_T_engineer_F"];
-_u = _u		+ ["O_T_Sharpshooter_F"];
-_u = _u		+ ["O_T_sniper_F"];  
-_u = _u		+ ["O_T_ghillie_sard_F"];
-_u = _u		+ ["O_T_ghillie_lsh_F"];
-_u = _u		+ ["O_T_ghillie_ard_F"];
-_u = _u		+ ["O_T_soldier_repair_F"];
-_u = _u		+ ["O_T_soldier_LAT_F"];
-_u = _u		+ ["O_T_soldier_AA_F"];
-_u = _u		+ ["O_T_soldier_AT_F"];
-_u = _u		+ ["O_T_spotter_F"];
+_u 			= ["rhs_msv_emr_LAT"];
+_u = _u		+ ["rhs_msv_emr_aa"];
+_u = _u		+ ["rhs_msv_emr_grenadier_rpg"];
+_u = _u		+ ["rhs_msv_emr_RShG2"];
+_u = _u		+ ["rhs_msv_emr_combatcrew"];
+_u = _u		+ ["rhs_msv_emr_efreitor"];
+_u = _u		+ ["rhs_msv_emr_arifleman"];
+_u = _u		+ ["rhs_msv_emr_grenadier"];
+_u = _u		+ ["rhs_msv_emr_machinegunner"];
+_u = _u		+ ["rhs_pilot_combat_heli"];
+_u = _u		+ ["rhs_msv_emr_medic"];
+_u = _u		+ ["rhs_msv_emr_officer"];
+_u = _u		+ ["rhs_msv_emr_rifleman"];  
+_u = _u		+ ["rhs_msv_emr_driver_armored"];
+_u = _u		+ ["rhs_msv_emr_engineer"];
+_u = _u		+ ["rhs_msv_emr_marksman"];
+_u = _u		+ ["rhs_msv_emr_sergeant"];
+_u = _u		+ ["rhs_msv_emr_junior_sergeant"];
+_u = _u		+ ["rhs_msv_emr_officer_armored"];
+_u = _u		+ ["rhs_msv_emr_strelok_rpg_assist"];
+_u = _u		+ ["rhs_msv_emr_at"];
 _u = _u		+ ["O_T_soldier_UAV_F"];
-_u = _u		+ ["O_T_Helipilot_F"];
-_u = _u		+ ["O_T_crew_F"];
+_u = _u		+ ["rhs_msv_emr_machinegunner_assistant"];
+_u = _u		+ ["rhs_msv_emr_driver"];
 _u = _u		+ ["O_T_Soldier_SL_F"];
 _u = _u		+ ["O_T_Soldier_TL_F"];
 _u = _u		+ ["O_T_soldier_M_F"];
