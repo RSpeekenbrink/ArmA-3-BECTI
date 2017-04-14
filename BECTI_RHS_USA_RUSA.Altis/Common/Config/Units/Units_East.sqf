@@ -20,6 +20,15 @@ _u = _u + [1];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
+_c = _c + ['O_diver_F'];
+_p = _p + [''];
+_n = _n + [''];
+_o = _o + [200];
+_t = _t + [5];
+_u = _u + [2];
+_f = _f + [CTI_FACTORY_BARRACKS];
+_s = _s + [""];
+
 _c = _c + ['rhs_msv_emr_aa'];
 _p = _p + [''];
 _n = _n + [''];
@@ -300,7 +309,7 @@ _n = _n + [''];
 _o = _o + [800];
 _t = _t + [15];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 _c = _c + ['rhs_bmp1d_msv'];
@@ -309,7 +318,7 @@ _n = _n + [''];
 _o = _o + [850];
 _t = _t + [15];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 _c = _c + ['rhs_bmp1k_msv'];
@@ -318,7 +327,7 @@ _n = _n + [''];
 _o = _o + [850];
 _t = _t + [15];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 _c = _c + ['rhs_bmp1p_msv'];
@@ -327,7 +336,7 @@ _n = _n + [''];
 _o = _o + [900];
 _t = _t + [15];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 _c = _c + ['rhs_bmp2e_msv'];
@@ -336,7 +345,7 @@ _n = _n + [''];
 _o = _o + [900];
 _t = _t + [15];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + ["service-medic"];
 
 _c = _c + ['rhs_bmp2_msv'];
@@ -345,7 +354,7 @@ _n = _n + [''];
 _o = _o + [950];
 _t = _t + [15];
 _u = _u + [3];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + ["service-medic"];
 
 
@@ -355,7 +364,7 @@ _n = _n + [''];
 _o = _o + [1500];
 _t = _t + [20];
 _u = _u + [3];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 
@@ -365,7 +374,7 @@ _n = _n + [''];
 _o = _o + [1050];
 _t = _t + [20];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 
@@ -375,7 +384,7 @@ _n = _n + [''];
 _o = _o + [1250];
 _t = _t + [30];
 _u = _u + [3];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 
@@ -385,7 +394,7 @@ _n = _n + [''];
 _o = _o + [1200];
 _t = _t + [20];
 _u = _u + [3];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 
@@ -395,7 +404,7 @@ _n = _n + [''];
 _o = _o + [1350];
 _t = _t + [30];
 _u = _u + [3];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 
@@ -405,7 +414,7 @@ _n = _n + [''];
 _o = _o + [900];
 _t = _t + [20];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 
@@ -415,7 +424,7 @@ _n = _n + [''];
 _o = _o + [1200];
 _t = _t + [20];
 _u = _u + [3];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 
@@ -425,7 +434,7 @@ _n = _n + [''];
 _o = _o + [1350];
 _t = _t + [20];
 _u = _u + [3];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 
@@ -564,7 +573,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [5000];
 _t = _t + [30];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
@@ -591,7 +600,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [4500];
 _t = _t + [30];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 

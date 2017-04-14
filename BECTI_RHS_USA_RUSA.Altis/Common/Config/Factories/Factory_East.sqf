@@ -62,6 +62,8 @@ _u = _u		+ ["rhs_msv_emr_at"];
 _u = _u		+ ["O_T_soldier_UAV_F"];
 _u = _u		+ ["rhs_msv_emr_machinegunner_assistant"];
 _u = _u		+ ["rhs_msv_emr_driver"];
+_u = _u		+ ["O_diver_F"];
+
 
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u];
 
