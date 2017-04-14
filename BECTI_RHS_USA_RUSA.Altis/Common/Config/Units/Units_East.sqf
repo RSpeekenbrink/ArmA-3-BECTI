@@ -97,7 +97,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [120];
 _t = _t + [5];
-_u = _u + [0];
+_u = _u + [2];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -215,15 +215,6 @@ _n = _n + [''];
 _o = _o + [225];
 _t = _t + [5];
 _u = _u + [2];
-_f = _f + [CTI_FACTORY_BARRACKS];
-_s = _s + [""];
-
-_c = _c + ['O_T_soldier_UAV_F'];
-_p = _p + [''];
-_n = _n + [''];
-_o = _o + [800];
-_t = _t + [5];
-_u = _u + [3];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -473,7 +464,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [900];
 _t = _t + [20];
-_u = _u + [1];
+_u = _u + [3];
 _f = _f + [CTI_FACTORY_LIGHT];
 _s = _s + [""];
 

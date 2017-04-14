@@ -1,25 +1,25 @@
 with missionNamespace do {
 	//--- Infantry
-	EAST_SOLDIER = ["O_T_Soldier_F", 1];
-	EAST_SOLDIER_AA = ["O_T_soldier_AA_F", 1];
-	EAST_SOLDIER_AR = ["O_T_Soldier_AR_F", 1];
-	EAST_SOLDIER_AT = ["O_T_Soldier_LAT_F", 1];
-	EAST_SOLDIER_CREW = ["O_T_crew_F", 1];
-	EAST_SOLDIER_LAT = ["O_T_Soldier_LAT_F", 1];
-	EAST_SOLDIER_HAT = ["O_T_Soldier_AT_F", 1];
-	EAST_SOLDIER_ENGINEER = ["O_T_engineer_F", 1];
-	EAST_SOLDIER_GL = ["O_T_Soldier_GL_F", 1];
-	EAST_SOLDIER_MEDIC = ["O_T_medic_F", 1];
-	EAST_SOLDIER_PILOT = ["O_T_helipilot_F", 1];
+	EAST_SOLDIER = ["rhs_msv_emr_rifleman", 1];
+	EAST_SOLDIER_AA = ["rhs_msv_emr_aa", 1];
+	EAST_SOLDIER_AR = ["rhs_msv_emr_arifleman", 1];
+	EAST_SOLDIER_AT = ["rhs_msv_emr_at", 1];
+	EAST_SOLDIER_CREW = ["rhs_msv_emr_combatcrew", 1];
+	EAST_SOLDIER_LAT = ["rhs_msv_emr_LAT", 1];
+	EAST_SOLDIER_HAT = ["rhs_msv_emr_grenadier_rpg", 1];
+	EAST_SOLDIER_ENGINEER = ["rhs_msv_emr_engineer", 1];
+	EAST_SOLDIER_GL = ["rhs_msv_emr_grenadier", 1];
+	EAST_SOLDIER_MEDIC = ["rhs_msv_emr_medic", 1];
+	EAST_SOLDIER_PILOT = ["rhs_pilot_combat_heli", 1];
 	EAST_SOLDIER_SQUADLEADER = ["O_T_Soldier_SL_F", 1];
 	EAST_SOLDIER_SNIPER = ["O_T_Sniper_F", 1];
-	EAST_SOLDIER_MARKSMAN = ["O_T_Soldier_M_F", 1];
-	EAST_SOLDIER_TEAMLEADER = ["O_T_Soldier_TL_F", 1];
-	EAST_SOLDIER_HEAVYGUNNER = ["O_T_HeavyGunner_F", 1];
+	EAST_SOLDIER_MARKSMAN = ["rhs_msv_emr_sergeant", 1];
+	EAST_SOLDIER_TEAMLEADER = ["rhs_msv_emr_junior_sergeant", 1];
+	EAST_SOLDIER_HEAVYGUNNER = ["rhs_msv_emr_machinegunner", 1];
 	
 	//--- Vehicles
-	EAST_MOTORIZED_MG = ["O_MRAP_02_hmg_F", 2];
-	EAST_MOTORIZED_GL = ["O_MRAP_02_gmg_F", 2];
+	EAST_MOTORIZED_MG = ["rhs_tigr_sts_msv", 2];
+	EAST_MOTORIZED_GL = ["rhs_btr70_msv", 2];
 
 	//--- Infantry - Mixed
 	EAST_SOLDIERS_MG_LIGHT = [EAST_SOLDIER_AR];
@@ -28,16 +28,16 @@ with missionNamespace do {
 	EAST_SOLDIERS_AT_LIGHT = [EAST_SOLDIER_LAT];
 	EAST_SOLDIERS_AT_MEDIUM = [EAST_SOLDIER_AT];
 	EAST_SOLDIERS_AT_HEAVY = [EAST_SOLDIER_HAT];
-	EAST_SOLDIERS_SPECOPS = [["O_T_Soldier_exp_F", 1]];
-	EAST_SOLDIERS_ENGINEER = [EAST_SOLDIER_ENGINEER, ["O_T_Soldier_repair_F", 1]];
-	EAST_SOLDIERS_SNIPERS = [EAST_SOLDIER_SNIPER, ["O_T_Spotter_F", 1], ["O_T_ghillie_sard_F", 1]];
-	EAST_SOLDIERS_MARKSMEN = [EAST_SOLDIER_MARKSMAN, ["O_T_Spotter_F", 1], ["O_T_Sharpshooter_F", 1]];
+	EAST_SOLDIERS_SPECOPS = [["rhs_msv_emr_sergeant", 1]];
+	EAST_SOLDIERS_ENGINEER = [EAST_SOLDIER_ENGINEER, ["rhs_msv_emr_engineer", 1]];
+	EAST_SOLDIERS_SNIPERS = [EAST_SOLDIER_SNIPER, ["rhs_msv_emr_marksman", 1]];
+	EAST_SOLDIERS_MARKSMEN = [EAST_SOLDIER_MARKSMAN, ["rhs_msv_emr_marksman", 1]];
 
 	//--- Vehicles
-	EAST_VEHICLE_AA = [["O_APC_Tracked_02_AA_F", 1]];
-	EAST_VEHICLE_APC = [["O_APC_Wheeled_02_rcws_F", 2], ["O_APC_Tracked_02_cannon_F", 2]];
+	EAST_VEHICLE_AA = [["rhs_btr80a_msv", 1]];
+	EAST_VEHICLE_APC = [["rhs_bmp1_msv", 2], ["rhs_btr70_msv", 2]];
 	// EAST_VEHICLE_ARMORED_HEAVY = ["armoheavy1","armoheavy2"];
-	EAST_VEHICLE_ARMORED_LIGHT = [["O_MBT_02_cannon_F", 2]];
+	EAST_VEHICLE_ARMORED_LIGHT = [["rhs_t72bb_tv", 2]];
 	// EAST_VEHICLE_MECHANIZED = ["mechanized1","mechanized2"];
 	EAST_VEHICLE_MOTORIZED = [EAST_MOTORIZED_MG, EAST_MOTORIZED_GL, EAST_MOTORIZED_MG];
 
