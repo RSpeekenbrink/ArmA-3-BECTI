@@ -1,20 +1,20 @@
 with missionNamespace do {
 	//--- Infantry
-	GUER_SOLDIER = "I_soldier_F";
-	GUER_SOLDIER_AA = "I_Soldier_AA_F";
-	GUER_SOLDIER_AR = "I_Soldier_AR_F";
-	GUER_SOLDIER_AT = "I_Soldier_LAT_F";
-	GUER_SOLDIER_CREW = "I_crew_F";
-	GUER_SOLDIER_LAT = "I_Soldier_LAT_F";
-	GUER_SOLDIER_HAT = "I_Soldier_AT_F";
+	GUER_SOLDIER = "rhsgref_nat_rifleman";
+	GUER_SOLDIER_AA = "rhsgref_nat_specialist_aa";
+	GUER_SOLDIER_AR = "rhsgref_nat_rifleman_m92";
+	GUER_SOLDIER_AT = "rhsgref_nat_grenadier_rpg";
+	GUER_SOLDIER_CREW = "rhsgref_nat_scout";
+	GUER_SOLDIER_LAT = "rhsgref_nat_scout";
+	GUER_SOLDIER_HAT = "rhsgref_nat_warlord";
 	GUER_SOLDIER_ENGINEER = "I_engineer_F";
-	GUER_SOLDIER_GL = "I_Soldier_GL_F";
-	GUER_SOLDIER_MEDIC = "I_medic_F";
-	// GUER_SOLDIER_MG = "soldiermg";
-	GUER_SOLDIER_PILOT = "I_helipilot_F";
-	GUER_SOLDIER_SQUADLEADER = "I_Soldier_SL_F";
-	GUER_SOLDIER_SNIPER = "I_Soldier_M_F";
-	GUER_SOLDIER_TEAMLEADER = "I_Soldier_TL_F";
+	GUER_SOLDIER_GL = "rhsgref_nat_grenadier";
+	GUER_SOLDIER_MEDIC = "rhsgref_nat_medic";
+    GUER_SOLDIER_MG = "rhsgref_nat_machinegunner";
+	GUER_SOLDIER_PILOT = "rhsgref_nat_scout";
+	GUER_SOLDIER_SQUADLEADER = "rhsgref_nat_rifleman_m92";
+	GUER_SOLDIER_SNIPER = "rhsgref_nat_rifleman_aks74";
+	GUER_SOLDIER_TEAMLEADER = "rhsgref_nat_rifleman_akms";
 
 	//--- Infantry - Mixed
 	// GUER_SOLDIERS_MG = [GUER_SOLDIER_MG, GUER_SOLDIER_AR];
@@ -22,18 +22,17 @@ with missionNamespace do {
 	GUER_SOLDIERS_AT_LIGHT = [GUER_SOLDIER_LAT, GUER_SOLDIER_AT];
 	GUER_SOLDIERS_AT_MEDIUM = [GUER_SOLDIER_AT, GUER_SOLDIER_AT, GUER_SOLDIER_HAT];
 	GUER_SOLDIERS_AT_HEAVY = [GUER_SOLDIER_AT, GUER_SOLDIER_HAT];
-	GUER_SOLDIERS_SPECOPS = ["I_Soldier_exp_F"];
-	GUER_SOLDIERS_ENGINEER = [GUER_SOLDIER_ENGINEER, "I_Soldier_repair_F"];
-	GUER_SOLDIERS_SNIPERS = [GUER_SOLDIER_SNIPER, "I_Spotter_F", "I_Sniper_F"];
+	GUER_SOLDIERS_SPECOPS = ["rhsgref_nat_rifleman_aks74"];
+	GUER_SOLDIERS_ENGINEER = [GUER_SOLDIER_ENGINEER];
+	GUER_SOLDIERS_SNIPERS = [GUER_SOLDIER_SNIPER];
 
 	//--- Vehicles
 	// GUER_VEHICLE_AA = ["aa1","aa2"];
-	GUER_VEHICLE_APC = ["I_APC_Wheeled_03_cannon_F"]; //todo: replace with real veh later on
-	// GUER_VEHICLE_APC = ["B_APC_Wheeled_01_cannon_F", "O_APC_Wheeled_02_rcws_F", "B_APC_Tracked_01_rcws_F", "O_APC_Wheeled_02_rcws_F"]; //todo: replace with real veh later on
-	// GUER_VEHICLE_ARMORED_HEAVY = ["armoheavy1","armoheavy2"];
-	// GUER_VEHICLE_ARMORED_LIGHT = ["armorlight1","armorlight2"];
-	// GUER_VEHICLE_MECHANIZED = ["mechanized1","mechanized2"];
-	GUER_VEHICLE_MOTORIZED = ["I_MRAP_03_hmg_F","I_MRAP_03_gmg_F","I_MRAP_03_hmg_F"];
+	GUER_VEHICLE_APC = ["rhsgref_nat_btr70"];
+	GUER_VEHICLE_ARMORED_HEAVY = ["rhsgref_nat_uaz_spg9"];
+	//GUER_VEHICLE_ARMORED_LIGHT = [""];
+	GUER_VEHICLE_MECHANIZED = ["rhsgref_nat_ural_work","rhsgref_nat_uaz_open"];
+	GUER_VEHICLE_MOTORIZED = ["rhsgref_nat_ural_Zu23","rhsgref_nat_uaz_dshkm","rhsgref_nat_uaz_ags"];
 
 	//--- Vehicles - Mixed
 	// GUER_VEHICLES_AA_LIGHT = GUER_VEHICLE_AA;
