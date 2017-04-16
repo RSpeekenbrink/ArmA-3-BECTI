@@ -261,10 +261,10 @@ _s = _s + [""];
 _c = _c + ['rhs_prp3_msv'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [250];
+_o = _o + [600];
 _t = _t + [10];
 _u = _u + [0];
-_f = _f + [CTI_FACTORY_LIGHT];
+_f = _f + [CTI_FACTORY_HEAVY];
 _s = _s + [""];
 
 _c = _c + ['rhs_uaz_open_MSV_01'];
