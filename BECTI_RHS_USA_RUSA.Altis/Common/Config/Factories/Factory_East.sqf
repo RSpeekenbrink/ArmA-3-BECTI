@@ -70,7 +70,6 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_BARRACKS], _u
 _u 			= ["O_Quadbike_01_F"];
 _u = _u		+ ["RHS_UAZ_MSV_01"];
 _u = _u		+ ["RHS_Ural_Open_MSV_01"];
-_u = _u		+ ["rhs_prp3_msv"];
 _u = _u		+ ["rhs_uaz_open_MSV_01"];
 _u = _u		+ ["rhs_tigr_msv"];
 _u = _u		+ ["rhs_tigr_m_msv"];
@@ -107,6 +106,7 @@ missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_LIGHT], _u];
 _u 			= ["RHS_BM21_MSV_01"];
 _u = _u		+ ["rhs_t72ba_tv"];
 _u = _u		+ ["rhs_t80a"];
+_u = _u		+ ["rhs_prp3_msv"];
 _u = _u		+ ["rhs_t72bb_tv"];
 _u = _u		+ ["rhs_t80"];
 _u = _u		+ ["rhs_t80bv"];
