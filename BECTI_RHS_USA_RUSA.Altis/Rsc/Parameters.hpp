@@ -9,13 +9,13 @@ class Params {
 		title = "AI: Commander";
 		values[] = {0,1};
 		texts[] = {"Disabled", "Enabled"};
-		default = 0;
+		default = 1;
 	};
 	class CTI_AI_TEAMS_ENABLED {
 		title = "AI: Teams";
 		values[] = {0,1,2,3,4};
 		texts[] = {"Disabled", "1/4 Slots", "1/2 Slots", "3/4 Slots", "All Slots"};
-		default = 0;
+		default = 2;
 	};
 	class CTI_AI_TEAMS_GROUPSIZE {
 		title = "AI: Team Size (AI)";
