@@ -29,7 +29,7 @@ Heavy Vehicle Factory, Aircraft Factory and the MHQ). Money and Supplies are gat
 local militia at the towns tho!
 
 ## How do I play and install it?
-First download the mission trough the <a href="">STEAMWORKSHOP (Not available on the workshop yet)</a> or trough the Releases page.
+First download the mission trough the <a href="http://steamcommunity.com/workshop/filedetails/?id=927466054">STEAMWORKSHOP</a> or trough the Releases page.
 If you Didn't download the mission from the workshop put the desired PBO file in the MPMissions folder on your server or in 
 `C:/programfiles/steam/steamapps/common/ArmA3/mpmissions` (Path may varray on your system) 
 
