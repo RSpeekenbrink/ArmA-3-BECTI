@@ -1,0 +1,5 @@
+_u addAction _p;
+_u addEventHandler ["Respawn",{
+	1 fadeSound 1;
+	(_this select 0) addAction _p;
+}];
