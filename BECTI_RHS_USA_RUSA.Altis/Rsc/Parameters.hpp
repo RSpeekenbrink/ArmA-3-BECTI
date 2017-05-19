@@ -343,4 +343,13 @@ class Params {
 		texts[] = {"1 KM","1.5 KM","2 KM","2.5 KM","3 KM","3.5 KM","4 KM","4.5 KM","5 KM"};
 		default = 5000;
 	};
+	
+	///OPTIONAL MODS SECTION
+	class ace_medical_level { //This needs to match an ace_setting, this one is a "SCALAR"(number)
+        title = "**OPTIONAL: ACE3MOD** Medical Level"; // Name that is shown
+        ACE_setting = 1; //Marks param to be read as an ace setting, without this nothing will happen!
+        values[] = {1, 2}; //Values that ace_medical_level can be set to
+        texts[] =  {"Basic", "Advanced"}; //Text names to show for values (Basic will set level to 1, Advanced will set level to 2)
+        default = 2; //Default value used - Value should be in the values[] list
+    };
 };

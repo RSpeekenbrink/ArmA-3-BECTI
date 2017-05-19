@@ -11,14 +11,14 @@ switch (_action) do {
 		
 _helps = [
 "<t size='1.4' color='#2394ef'>Introduction</t><br /><br />
-<t><t color='#ffec1c'>CTI</t> (<t color='#ffec1c'>Capture The Island</t>) is a gamemode where two sides, West and East fight for the control of an island.</t><br /><br />
-Each side are led by a <t color='#e8bd12'>Commander</t> which may construct a base thanks to the <t color='#e8bd12'>MHQ</t>.<br /><br />
+<t><t color='#ffec1c'>CTI</t> (<t color='#ffec1c'>Capture The Island</t>) is a gamemode where two sides, West and East fight for the control of an island.</t>
+Each side are led by a <t color='#e8bd12'>Commander</t> which may construct a base thanks to the <t color='#e8bd12'>Mobile HQ</t>.<br /><br />
 As soon as the base is available, you may decide to reinforce your team by purchasing additional units and vehicles.<br /><br />
-Keep in mind that the <t color='#e8bd12'>Commander</t> may assign assign different tasks to your team.<br /><br />
-The mission may be won by destroying the opposite side's base assets (<t color='#eaff96'>Barracks</t>, <t color='#eaff96'>Light Vehicle Factory</t>, <t color='#eaff96'>Heavy Vehicle Factory</t>, <t color='#eaff96'>Aircraft Factory</t> and the <t color='#eaff96'>MHQ</t>).<br /><br />
+Keep in mind that the <t color='#e8bd12'>Commander</t> may assign assign different tasks to your team. 
+The mission may be won by destroying the opposite side's base assets (<t color='#eaff96'>Barracks</t>, <t color='#eaff96'>Light Vehicle Factory</t>, <t color='#eaff96'>Heavy Vehicle Factory</t>, <t color='#eaff96'>Aircraft Factory</t> and the <t color='#eaff96'>Mobile HQ</t>).<br /><br />
 ",
 "<t size='1.4' color='#2394ef'>The Basics</t><br /><br />
-Each side's teams are led by a <t color='#e8bd12'>Team Leader</t> which will respawn after it's death (you are a Team Leader). Your character's location can be seen on the map as it will always be tracked by a marker like those below.<br /><br />
+Each side's teams are led by a <t color='#e8bd12'>Team Leader</t> which will respawn after it's death (you are a Team Leader). Your character's location can be seen on the map as it will always be tracked by a marker like those below.<br />
 <t align='center'><img image='\A3\ui_f\data\map\Markers\NATO\b_inf.paa' size='2'/> <img image='\A3\ui_f\data\map\Markers\NATO\o_inf.paa' size='2'/></t><br /><br />
 Each player team has it's own <t color='#e8bd12'>Income</t>, the income can be viewed by accessing the <t color='#eaff96'>Options Menu</t>. The income can be increased by controlling <t color='#e8bd12'>Towns</t> and by earning non-combat points.<br /><br />
 <t color='#e8bd12'>Towns</t> will generate a different income value depending on their size. The bigger the town the bigger the bounty (and the difficulty!). Note that an <t color='#e8bd12'>Occupied Towns</t> will generate more income.<br /><br />

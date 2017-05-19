@@ -712,7 +712,7 @@ _o = _o + [CTI_VEHICLES_SALVAGER_PRICE];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [["O_Truck_03_covered_F","salvager"]];
+_s = _s + [["rhs_gaz66_ammo_msv","salvager"]];
 
 _c = _c + ['CTI_Salvager_Independent_East'];
 _p = _p + [''];
@@ -721,7 +721,7 @@ _o = _o + [CTI_VEHICLES_SALVAGER_PRICE];
 _t = _t + [25];
 _u = _u + [0];
 _f = _f + [CTI_FACTORY_REPAIR];
-_s = _s + [["O_Truck_03_covered_F","salvager-independent"]];
+_s = _s + [["rhs_gaz66_ammo_msv","salvager-independent"]];
 
 _c = _c + ['RHS_Ural_Fuel_MSV_01'];
 _p = _p + [''];

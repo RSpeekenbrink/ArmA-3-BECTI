@@ -1,3 +1,20 @@
+//--- Optional Mod Stuff
+if (!isClass(configFile >> "CfgPatches" >> "ace_main")) then 
+{  
+//Start other 'plugins' if ACE is not running
+ [] execVM "Client\Module\zlt\zlt_fieldrepair.sqf"; 
+ [] execVM "Client\Module\zlt\zlt_fastrope.sqf";
+ [player] execVM "Client\Module\earplugs\simpleEP.sqf";
+}; 
+
+if (isClass(configFile >> "CfgPatches" >> "task_force_radio")) then 
+{ 
+//TFAR mod is enabled
+TF_give_personal_radio_to_regular_soldier = true;
+tf_no_auto_long_range_radio = true;
+TF_give_microdagr_to_soldier = false;
+}; 
+
 //--- Initial View Distance and Object View Distance for both clients and server
 setViewDistance 2500;
 setObjectViewDistance 2500;
@@ -97,6 +114,4 @@ if (CTI_IsHeadless) then {
 
 //--- Set the group ID
 execVM "Common\Init\Init_GroupsID.sqf";
-[] execVM "Client\Module\zlt\zlt_fieldrepair.sqf";
-[] execVM "Client\Module\zlt\zlt_fastrope.sqf";
-[player] execVM "Client\Module\earplugs\simpleEP.sqf";
+

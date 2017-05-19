@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2265;
+		nextID=2850;
 	};
 	class Camera
 	{
-		pos[]={4168,1022.2303,10939.106};
+		pos[]={4541.4595,850.43286,11000.439};
 		dir[]={0.60999447,-0.77536738,-0.16351075};
 		up[]={0.74893409,0.63150299,-0.20075335};
 		aside[]={-0.25891641,1.8034916e-007,-0.96591032};
@@ -162,12 +162,13 @@ class Mission
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
-		startWind=0.1;
+		startWind=0.050000001;
 		startWaves=0.1;
 		forecastWeather=0;
-		forecastWind=0.1;
+		forecastWind=0.050000001;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
+		windForced=1;
 		year=2035;
 		month=6;
 		day=6;

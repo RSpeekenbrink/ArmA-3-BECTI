@@ -45,8 +45,7 @@ switch (_action) do {
 		};
 	};
 	case "onMusicPressed": { //--- Play some music
-		player sidechat "lalalalaaaaaaaaaa lalalalaaaaaaaa laaaa";
-		player hint "This function is not implemented yet.";
+		//
 	};
 	case "onServicePressed": {
 		closeDialog 0;

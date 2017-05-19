@@ -146,8 +146,7 @@ _u = _u		+ ["RHS_Su25SM_KH29_vvs"];
 _u = _u		+ ["RHS_TU95MS_vvs_old"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_AIR], _u];
 
-_u 			= ["rhs_gaz66_ammo_msv"];
-_u = _u		+ ["CTI_Salvager_East"];
+_u =		+ ["CTI_Salvager_East"];
 _u = _u		+ ["rhs_gaz66_repair_msv"];
 _u = _u		+ ["RHS_Ural_Fuel_MSV_01"];
 missionNamespace setVariable [format ["CTI_%1_%2Units", _side, CTI_REPAIR], _u];

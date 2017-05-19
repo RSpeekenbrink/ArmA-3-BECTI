@@ -6,8 +6,8 @@ respawnDialog = false;
 //--- Require briefing.html to show up.
 onLoadName = "BECTI RHS USA-RUSA Altis";
 briefingName = "BECTI RHS USA-RUSA Altis";
-onLoadMission = "Battle Against Players and AI for control of the Islands.";
-overviewText = "Battle Against Players and AI for control of the Islands.";
+onLoadMission = "Battle Against Players and AI for control of the Map.";
+overviewText = "Battle Against Players and AI for control of the Map.";
 
 //--- ArmA 3 Specifics
 dev = "Fisher, Boivie, Original by: Sari, Benny";
