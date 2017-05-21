@@ -1663,7 +1663,7 @@ class CTI_RscOptionsMenu {
 			w = "SafeZoneW * 0.28";
 			h = "SafeZoneH * 0.04";
 			
-			text = "Online Help";
+			text = "Help";
 			action = "['onOnlineHelpPressed'] call compile preprocessFileLineNumbers 'Client\Events\Events_UI_OptionsMenu.sqf'";
 		};
 		class CTI_Menu_Options_Video : CTI_Menu_Options_OnlineHelp {
@@ -2169,7 +2169,7 @@ class CTI_RscOnlineHelpMenu {
 			w = "SafeZoneW * 0.78";
 			h = "SafeZoneH * 0.037";
 			
-			text = "Online Help";
+			text = "Help";
 			colorText[] = {0.258823529, 0.713725490, 1, 1};
 			
 			sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
