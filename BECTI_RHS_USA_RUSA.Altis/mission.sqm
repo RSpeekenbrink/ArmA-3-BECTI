@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=675;
+		nextID=688;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2850;
+		nextID=3240;
 	};
 	class Camera
 	{
-		pos[]={4541.4595,850.43286,11000.439};
-		dir[]={0.60999447,-0.77536738,-0.16351075};
-		up[]={0.74893409,0.63150299,-0.20075335};
-		aside[]={-0.25891641,1.8034916e-007,-0.96591032};
+		pos[]={8818.3525,260.3443,25341.486};
+		dir[]={-0.38911229,-0.42067769,-0.81953716};
+		up[]={-0.18043424,0.90720677,-0.38002503};
+		aside[]={-0.90335906,1.3640965e-007,0.42891133};
 	};
 };
 binarizationWanted=0;
@@ -1465,12 +1465,12 @@ class Mission
 				class Item13
 				{
 					dataType="Marker";
-					position[]={21726.586,242.36499,5976.2734};
+					position[]={8773.8369,177.42749,25185.502};
 					name="Prison";
 					type="Empty";
 					colorName="ColorPink";
 					id=13;
-					atlOffset=233.20457;
+					atlOffset=111.41108;
 				};
 				class Item14
 				{
@@ -1512,7 +1512,7 @@ class Mission
 				};
 			};
 			id=219;
-			atlOffset=-76.419617;
+			atlOffset=-15.832902;
 		};
 		class Item33
 		{
