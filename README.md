@@ -51,3 +51,13 @@ This is an Open Source project, Cloning and Editing of the templates to your des
 - Bohemia Interactive (original Mission in A2)
 - <a href="https://forums.bistudio.com/forums/topic/156917-spmp-becti/">Benny</a> (original A3 Version of CTI)
 - Sari (Some updates for UI code)
+
+
+<p align="center">
+  <a href="https://www.bistudio.com/community/licenses/arma-public-license-share-alike">
+    <img src="https://www.bistudio.com/assets/img/licenses/APL-SA.png">
+  </a></br>
+  This project is under the *Arma Public License Share Alike (APL-SA) License*
+https://www.bistudio.com/community/licenses/arma-public-license-share-alike
+</p>
+
