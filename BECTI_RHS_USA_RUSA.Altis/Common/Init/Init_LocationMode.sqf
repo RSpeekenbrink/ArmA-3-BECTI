@@ -20,8 +20,6 @@ switch (missionNamespace getVariable "CTI_TOWNS_AMOUNT") do {
 	case 1: {TownTemplate = CTI_Logic getVariable "Towns_RemovedSmall"};
 	case 2: {TownTemplate = CTI_Logic getVariable "Towns_RemovedMedium"};
 	case 3: {TownTemplate = CTI_Logic getVariable "Towns_RemovedLarge"};
-	case 4: {TownTemplate = CTI_Logic getVariable "Towns_RemovedWest"};
-	case 5: {TownTemplate = CTI_Logic getVariable "Towns_RemovedEast"};
 	//--- case 4 = full. useless.
 	/* Adding custom templates
 		Custom templates can be added, just follow these steps:
