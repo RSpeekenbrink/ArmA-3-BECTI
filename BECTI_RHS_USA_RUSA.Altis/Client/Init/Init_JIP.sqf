@@ -1,4 +1,8 @@
 {
+	[_x] call CTI_PVF_Client_structurepreplaced;
+} forEach (CTI_P_SideLogic getVariable ["cti_structures_wip",[]]);
+
+{
 	if (alive _x) then {
 		_var = missionNamespace getVariable format ["CTI_%1_%2", CTI_P_SideJoined, typeOf _x];
 		if !(isNil '_var') then {[_x, _var] call CTI_CL_FNC_InitializeStructure};

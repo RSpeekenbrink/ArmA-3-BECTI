@@ -87,10 +87,10 @@ _helper = _helper			+ [["B_Soldier_VR_F", 180]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_LIGHT, "Light Vehicle Factory", "Light"]];
-_classes = _classes 		+ [["Land_Bunker_F", "Land_Cargo20_military_green_F"]];
+_classes = _classes 		+ [["Land_i_Garage_V1_F", "Land_Cargo20_military_green_F"]];
 _prices = _prices 			+ [600];
 _times = _times 			+ [80];
-_placements = _placements 	+ [[180, 20]];
+_placements = _placements 	+ [[90, 20]];
 _helper = _helper			+ [["Land_VR_Target_MRAP_01_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
@@ -119,7 +119,7 @@ _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_AMMO, "Ammo Depot", "Ammo"]];
-_classes = _classes 		+ [["Land_Tank_rust_F", "Land_Cargo20_military_green_F"]];
+_classes = _classes 		+ [["Land_Cargo40_military_green_F", "Land_Cargo20_military_green_F"]];
 _prices = _prices 			+ [200];
 _times = _times 			+ [40];
 _placements = _placements 	+ [[180, 20]];
@@ -127,7 +127,7 @@ _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_REPAIR, "Repair Depot", "Repair"]];
-_classes = _classes 		+ [["Land_Tank_rust_F", "Land_Cargo20_military_green_F"]];
+_classes = _classes 		+ [["Land_CarService_F", "Land_Cargo20_military_green_F"]];
 _prices = _prices 			+ [600];
 _times = _times 			+ [35];
 _placements = _placements 	+ [[180, 20]];
@@ -135,7 +135,7 @@ _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_NAVAL, "Naval Yard", "Naval"]];
-_classes = _classes 		+ [["Land_Cargo_House_V1_F", "Land_Cargo20_military_green_F"]];
+_classes = _classes 		+ [["Land_Cargo_House_V3_F", "Land_Cargo20_military_green_F"]];
 _prices = _prices 			+ [400];
 _times = _times 			+ [35];
 _placements = _placements 	+ [[180, 25]];
