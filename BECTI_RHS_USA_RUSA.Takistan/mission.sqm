@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=817;
+		nextID=819;
 	};
 	class MarkerIDProvider
 	{
@@ -16,11 +16,10 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2548;
+		nextID=2586;
 	};
 	class Camera
 	{
-		pos[]={1356.911,343.77393,10995.106};
 		dir[]={0.35870785,-0.64349967,0.67626077};
 		up[]={0.30154282,0.76542658,0.56848961};
 		aside[]={0.88345468,5.9825834e-007,-0.46860853};
@@ -1542,7 +1541,7 @@ class Mission
 						position[]={320.60999,412.45963,1696.6541};
 					};
 					name="CTI_Logic";
-					init="this setVariable [""totalTowns"",34]; " \n "this setVariable [""Towns_RemovedXSmall"",[""""]]; " \n "this setVariable [""Towns_RemovedSmall"",[""""]]; this setVariable [""Towns_RemovedMedium"",[""""]]; " \n "this setVariable [""Towns_RemovedLarge"",[""""]]; nullReturn = [this] ExecVM ""Common\Init\Init_LocationMode.sqf""";
+					init="this setVariable [""totalTowns"",35]; " \n "this setVariable [""Towns_RemovedXSmall"",[""""]]; " \n "this setVariable [""Towns_RemovedSmall"",[""""]]; this setVariable [""Towns_RemovedMedium"",[""""]]; " \n "this setVariable [""Towns_RemovedLarge"",[""""]]; nullReturn = [this] ExecVM ""Common\Init\Init_LocationMode.sqf""";
 					id=363;
 					type="Logic";
 					atlOffset=39.317993;
@@ -1568,7 +1567,7 @@ class Mission
 			name="Towns";
 			class Entities
 			{
-				items=34;
+				items=35;
 				class Item0
 				{
 					dataType="Layer";
@@ -2929,9 +2928,31 @@ class Mission
 					id=796;
 					atlOffset=39.448471;
 				};
+				class Item34
+				{
+					dataType="Layer";
+					class Entities
+					{
+						items=1;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={5981.3262,122.80749,7278.7598};
+								angles[]={0.027193764,0,6.2799835};
+							};
+							name="Town34";
+							init="nullReturn = [this, ""Falar"", resistance, 5, 15, 250] execVM ""Common\Init\Init_Location.sqf""";
+							id=818;
+							type="LocationArea_F";
+						};
+					};
+					id=817;
+				};
 			};
 			id=262;
-			atlOffset=5.0285187;
+			atlOffset=-46.37825;
 		};
 	};
 	class Connections
