@@ -13,7 +13,7 @@ missionNamespace setVariable [format["CTI_%1_UAV_AI", _side], "B_UAV_AI"];
 missionNamespace setVariable [Format["CTI_%1FLAG", _side], "\A3\Data_F\Flags\Flag_us_CO.paa"];
 
 missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-	["rhsusf_M1078A1P2_wd_fmtv_usarmy", [
+	["rhsusf_M1078A1P2_d_fmtv_usarmy", [
 		["rhs_weap_m4a1_carryhandle", 2], ["30Rnd_556x45_Stanag", 50],
 		["rhs_weap_m4a1_carryhandle_pmag", 1], ["rhs_weap_M136", 8],
 		["HandGrenade", 20], 
@@ -22,7 +22,7 @@ missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 		["acc_flashlight", 5],
 		["optic_Holosight", 2]
 	]], 
-	["rhsusf_M1232_usarmy_wd", [
+	["rhsusf_M1232_usarmy_d", [
 		["rhs_weap_m4a1_carryhandle", 2], ["30Rnd_556x45_Stanag", 50],
 		["rhs_weap_m4a1_carryhandle_pmag", 1], ["rhs_weap_M136", 3],
 		["HandGrenade", 10], 

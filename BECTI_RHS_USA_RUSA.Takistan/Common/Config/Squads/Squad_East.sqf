@@ -24,7 +24,7 @@ missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_AIR", _side], ["HeliAtt
 
 _v = _v		+ ["Infantry"];
 _t = _t		+ ["Infantry"];
-_p = _p		+ [[["rhs_msv_emr_rifleman", 5], ["rhs_msv_emr_arifleman", 2, 80], ["rhs_msv_emr_medic", 1], ["rhs_msv_emr_LAT", 1, 70], ["rhs_msv_emr_machinegunner", 1, 40], ["rhs_msv_emr_grenadier",2,90], ["rhs_msv_emr_grenadier_rpg", 2, 90], ["rhs_msv_emr_marksman", 1, 70], ["rhs_msv_emr_sergeant", 1, 55]]];
+_p = _p		+ [[["rhs_vdv_des_rifleman", 5], ["rhs_vdv_des_arifleman", 2, 80], ["rhs_vdv_des_medic", 1], ["rhs_vdv_des_LAT", 1, 70], ["rhs_vdv_des_machinegunner", 1, 40], ["rhs_vdv_des_grenadier",2,90], ["rhs_vdv_des_grenadier_rpg", 2, 90], ["rhs_vdv_des_marksman", 1, 70], ["rhs_vdv_des_sergeant", 1, 55]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [1725];
 _c = _c		+ ["Infantry"];
@@ -32,7 +32,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAT"];
 _t = _t		+ ["Infantry - AT"];
-_p = _p		+ [[["rhs_msv_emr_at", 5, 85], ["rhs_msv_emr_medic", 1], ["rhs_msv_emr_grenadier_rpg", 3, 75]]];
+_p = _p		+ [[["rhs_vdv_des_at", 5, 85], ["rhs_vdv_des_medic", 1], ["rhs_vdv_des_grenadier_rpg", 3, 75]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [4865];
 _c = _c		+ ["InfantryAT"];
@@ -40,7 +40,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryAA"];
 _t = _t		+ ["Infantry - AA"];
-_p = _p		+ [[["rhs_msv_emr_aa", 5, 85], ["rhs_msv_emr_medic", 1], ["rhs_msv_emr_LAT", 2, 60]]];
+_p = _p		+ [[["rhs_vdv_des_aa", 5, 85], ["rhs_vdv_des_medic", 1], ["rhs_vdv_des_LAT", 2, 60]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [2415];
 _c = _c		+ ["InfantryAA"];
@@ -48,7 +48,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantryRanged"];
 _t = _t		+ ["Infantry - Marksmen"];
-_p = _p		+ [[["rhs_msv_emr_marksman", 2], ["rhs_msv_emr_rifleman", 1], ["rhs_msv_emr_sergeant", 1]]];
+_p = _p		+ [[["rhs_vdv_des_marksman", 2], ["rhs_vdv_des_rifleman", 1], ["rhs_vdv_des_sergeant", 1]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [1300];
 _c = _c		+ ["InfantryAdvanced"];
@@ -56,7 +56,7 @@ _s = _s		+ [[]];
 
 _v = _v		+ ["InfantrySniper"];
 _t = _t		+ ["Infantry - Snipers"];
-_p = _p		+ [[["rhs_msv_emr_marksman", 2], ["rhs_msv_emr_junior_sergeant", 1]]];
+_p = _p		+ [[["rhs_vdv_des_marksman", 2], ["rhs_vdv_des_junior_sergeant", 1]]];
 _f = _f		+ [CTI_BARRACKS];
 _m = _m		+ [1450];
 _c = _c		+ ["InfantryAdvanced"];

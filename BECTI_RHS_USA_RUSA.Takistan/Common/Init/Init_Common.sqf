@@ -158,5 +158,5 @@ missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
 	["rhsusf_ach_helmet_headset_ocp",""],[["rhsusf_ANPVS_14","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 	[["rhs_weap_ak74m",["rhs_acc_dtk","","",""],["rhs_30Rnd_545x39_AK"]],["",[],[""]],["",[],[]]],
-	[["rhs_uniform_emr_patchless",["firstaidkit","firstaidkit"]],["rhs_6b23_digi_6sh92",["rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgo","rhs_mag_rgo"]],["",[""]]],
+	[["rhs_uniform_emr_des_patchless",["firstaidkit","firstaidkit"]],["rhs_6b23_digi_6sh92",["rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK","rhs_mag_rdg2_white","rhs_mag_rdg2_white","rhs_mag_rgo","rhs_mag_rgo"]],["",[""]]],
 	["rhs_6b28",""],[["rhs_1PN138","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];

@@ -1,6 +1,6 @@
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_HQ", _side], "rhs_prp3_msv"];
+missionNamespace setVariable [format["CTI_%1_HQ", _side], "rhsgref_BRDM2_HQ_msv"];
 missionNamespace setVariable [format["CTI_%1_Factories", _side], ["Barracks","Light","Heavy","Air"]];
 
 missionNamespace setVariable [format["CTI_%1_Base_Template", _side], [
@@ -67,7 +67,7 @@ _specials = [];
 */
 
 _headers = _headers 		+ [[CTI_HQ_DEPLOYED, "HQ", "HQdeployed"]];
-_classes = _classes 		+ [["Land_Research_HQ_F", "Land_Cargo20_red_F"]];
+_classes = _classes 		+ [["BRDM2_HQ_TK_GUE_unfolded_Base_EP1", "Land_Cargo20_red_F"]];
 _prices = _prices 			+ [CTI_BASE_HQ_DEPLOY_COST];
 _times = _times 			+ [1];
 _placements = _placements 	+ [[0, 15]];
@@ -75,7 +75,7 @@ _helper = _helper			+ [[""]];
 _specials = _specials		+ [[["DMG_Reduce", 8]]];
 
 _headers = _headers 		+ [[CTI_BARRACKS, "Barracks", "Barracks"]];
-_classes = _classes 		+ [["Land_Cargo_House_V1_F", "Land_Cargo20_red_F"]];
+_classes = _classes 		+ [["TK_WarfareBBarracks_Base_EP1", "Land_Cargo20_red_F"]];
 _prices = _prices 			+ [200];
 _times = _times 			+ [60];
 _placements = _placements 	+ [[180, 15]];
@@ -83,7 +83,7 @@ _helper = _helper			+ [["B_Soldier_VR_F", 180]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_LIGHT, "Light Vehicle Factory", "Light"]];
-_classes = _classes 		+ [["Land_i_Garage_V1_F", "Land_Cargo20_red_F"]];
+_classes = _classes 		+ [["TK_WarfareBVehicleServicePoint_Base_EP1", "Land_Cargo20_red_F"]];
 _prices = _prices 			+ [600];
 _times = _times 			+ [80];
 _placements = _placements 	+ [[90, 20]];
@@ -91,7 +91,7 @@ _helper = _helper			+ [["Land_VR_Target_MRAP_01_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_CONTROLCENTER, "Control Center", "CC"]];
-_classes = _classes 		+ [["Land_Cargo_HQ_V1_F", "Land_Cargo20_red_F"]];
+_classes = _classes 		+ [["TK_GUE_WarfareBUAVterminal_Base_EP1", "Land_Cargo20_red_F"]];
 _prices = _prices 			+ [1200];
 _times = _times 			+ [90];
 _placements = _placements 	+ [[180, 20]];
@@ -99,7 +99,7 @@ _helper = _helper			+ [[""]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
-_classes = _classes 		+ [["Land_Bunker_F", "Land_Cargo40_red_F"]];
+_classes = _classes 		+ [["TK_GUE_WarfareBHeavyFactory_Base_EP1", "Land_Cargo40_red_F"]];
 _prices = _prices 			+ [2800];
 _times = _times 			+ [120];
 _placements = _placements 	+ [[180, 25]];
@@ -107,7 +107,7 @@ _helper = _helper			+ [["Land_VR_Target_MBT_01_cannon_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_AIR, "Aircraft Factory", "Air"]];
-_classes = _classes 		+ [["Land_Airport_Tower_F", "Land_Cargo40_red_F"]];
+_classes = _classes 		+ [["TK_WarfareBAircraftFactory_Base_EP1", "Land_Cargo40_red_F"]];
 _prices = _prices 			+ [4400];
 _times = _times 			+ [140];
 _placements = _placements 	+ [[90, 25]];
@@ -123,7 +123,7 @@ _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
 _headers = _headers 		+ [[CTI_REPAIR, "Repair Depot", "Repair"]];
-_classes = _classes 		+ [["Land_CarService_F", "Land_Cargo20_red_F"]];
+_classes = _classes 		+ [["Land_Mil_Repair_center_EP1", "Land_Cargo20_red_F"]];
 _prices = _prices 			+ [600];
 _times = _times 			+ [35];
 _placements = _placements 	+ [[180, 20]];
