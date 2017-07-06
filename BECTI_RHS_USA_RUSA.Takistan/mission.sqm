@@ -20,6 +20,7 @@ class EditorData
 	};
 	class Camera
 	{
+		pos[]={1356.434,387.20795,10988.517};
 		dir[]={0.35870785,-0.64349967,0.67626077};
 		up[]={0.30154282,0.76542658,0.56848961};
 		aside[]={0.88345468,5.9825834e-007,-0.46860853};
@@ -2931,6 +2932,7 @@ class Mission
 				class Item34
 				{
 					dataType="Layer";
+					name="Falar";
 					class Entities
 					{
 						items=1;
