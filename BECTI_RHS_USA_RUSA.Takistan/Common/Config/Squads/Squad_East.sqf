@@ -24,9 +24,9 @@ missionNamespace setVariable [format["CTI_SQUADS_%1_KIND_AIR", _side], ["HeliAtt
 
 _v = _v		+ ["Infantry"];
 _t = _t		+ ["Infantry"];
-_p = _p		+ [[["rhs_vdv_des_rifleman", 5], ["rhs_vdv_des_arifleman", 2, 80], ["rhs_vdv_des_medic", 1], ["rhs_vdv_des_LAT", 1, 70], ["rhs_vdv_des_machinegunner", 1, 40], ["rhs_vdv_des_grenadier",2,90], ["rhs_vdv_des_grenadier_rpg", 2, 90], ["rhs_vdv_des_marksman", 1, 70], ["rhs_vdv_des_sergeant", 1, 55]]];
+_p = _p		+ [[["rhs_vdv_des_rifleman", 5, 90], ["rhs_vdv_des_arifleman", 2, 80], ["rhs_vdv_des_medic", 1], ["rhs_vdv_des_LAT", 1, 70], ["rhs_vdv_des_machinegunner", 1, 40], ["rhs_vdv_des_grenadier",2,90], ["rhs_vdv_des_grenadier_rpg", 2, 90], ["rhs_vdv_des_marksman", 1, 70], ["rhs_vdv_des_sergeant", 1, 55]]];
 _f = _f		+ [CTI_BARRACKS];
-_m = _m		+ [1725];
+_m = _m		+ [1000];
 _c = _c		+ ["Infantry"];
 _s = _s		+ [[]];
 

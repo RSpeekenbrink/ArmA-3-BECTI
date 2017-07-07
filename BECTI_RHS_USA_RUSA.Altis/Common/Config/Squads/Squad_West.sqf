@@ -26,7 +26,7 @@ _v = _v		+ ["Infantry"];
 _t = _t		+ ["Infantry"];
 _p = _p		+ [[["rhsusf_army_ocp_rifleman", 2], ["rhsusf_army_ocp_grenadier", 2, 80], ["rhsusf_army_ocp_autorifleman", 2, 80], ["rhsusf_army_ocp_teamleader", 2], ["rhsusf_army_ocp_riflemanat", 2], ["rhsusf_army_ocp_medic", 1]]];
 _f = _f		+ [CTI_BARRACKS];
-_m = _m		+ [1725];
+_m = _m		+ [1000];
 _c = _c		+ ["Infantry"];
 _s = _s		+ [[]];
 

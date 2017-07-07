@@ -82,7 +82,7 @@ _headers = _headers 		+ [[CTI_BARRACKS, "Barracks", "Barracks"]];
 _classes = _classes 		+ [["US_WarfareBBarracks_Base_EP1", "Land_Cargo20_military_green_F"]];
 _prices = _prices 			+ [200];
 _times = _times 			+ [60];
-_placements = _placements 	+ [[180, 15]];
+_placements = _placements 	+ [[90, 15]];
 _helper = _helper			+ [["B_Soldier_VR_F", 180]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
@@ -106,7 +106,7 @@ _headers = _headers 		+ [[CTI_HEAVY, "Heavy Vehicle Factory", "Heavy"]];
 _classes = _classes 		+ [["US_WarfareBHeavyFactory_Base_EP1", "Land_Cargo40_military_green_F"]];
 _prices = _prices 			+ [2800];
 _times = _times 			+ [120];
-_placements = _placements 	+ [[180, 25]];
+_placements = _placements 	+ [[90, 25]];
 _helper = _helper			+ [["Land_VR_Target_MBT_01_cannon_F", 270]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 
@@ -130,7 +130,7 @@ _headers = _headers 		+ [[CTI_REPAIR, "Repair Depot", "Repair"]];
 _classes = _classes 		+ [["Land_Mil_Repair_center_EP1", "Land_Cargo20_military_green_F"]];
 _prices = _prices 			+ [600];
 _times = _times 			+ [35];
-_placements = _placements 	+ [[180, 20]];
+_placements = _placements 	+ [[0, 20]];
 _helper = _helper			+ [["Sign_Arrow_Large_Blue_F", 0]];
 _specials = _specials		+ [[["DMG_Reduce", 5]]];
 

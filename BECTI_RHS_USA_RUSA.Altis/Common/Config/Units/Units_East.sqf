@@ -16,7 +16,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [200];
 _t = _t + [5];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -41,9 +41,9 @@ _s = _s + [""];
 _c = _c + ['rhs_msv_emr_grenadier_rpg'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [225];
+_o = _o + [250];
 _t = _t + [5];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -52,7 +52,7 @@ _p = _p + [''];
 _n = _n + [''];
 _o = _o + [200];
 _t = _t + [5];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -68,27 +68,27 @@ _s = _s + [""];
 _c = _c + ['rhs_msv_emr_efreitor'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [180];
+_o = _o + [200];
 _t = _t + [5];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['rhs_msv_emr_arifleman'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [220];
+_o = _o + [180];
 _t = _t + [5];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
 _c = _c + ['rhs_msv_emr_grenadier'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [170];
+_o = _o + [200];
 _t = _t + [5];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
@@ -113,9 +113,9 @@ _s = _s + [""];
 _c = _c + ['rhs_msv_emr_medic'];
 _p = _p + [''];
 _n = _n + [''];
-_o = _o + [190];
+_o = _o + [200];
 _t = _t + [5];
-_u = _u + [1];
+_u = _u + [0];
 _f = _f + [CTI_FACTORY_BARRACKS];
 _s = _s + [""];
 
