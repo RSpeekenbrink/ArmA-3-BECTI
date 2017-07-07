@@ -358,7 +358,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Bravo, Team Leader";
+						description="Bravo, Squad Leader";
 						isPlayable=1;
 					};
 					id=242;
@@ -393,7 +393,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Charlie, Team Leader";
+						description="Charlie, Squad Leader";
 						isPlayable=1;
 					};
 					id=243;
@@ -428,7 +428,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Delta, Sniper";
+						description="Delta, Squad Leader";
 						isPlayable=1;
 					};
 					id=244;
@@ -463,7 +463,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Echo, Sniper";
+						description="Echo, Squad Leader";
 						isPlayable=1;
 					};
 					id=245;
@@ -498,7 +498,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Foxtrot, Combat Life Saver";
+						description="Foxtrot, Squad Leader";
 						isPlayable=1;
 					};
 					id=246;
@@ -533,7 +533,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Golf, Combat Life Saver";
+						description="Golf, Squad Leader";
 						isPlayable=1;
 					};
 					id=247;
@@ -568,7 +568,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Hotel, Combat Life Saver";
+						description="Hotel, Squad Leader";
 						isPlayable=1;
 					};
 					id=248;
@@ -603,7 +603,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="India, Explosives Specialist";
+						description="India, Squad Leader";
 						isPlayable=1;
 					};
 					id=249;
@@ -638,7 +638,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Juliet, Explosives Specialist";
+						description="Juliet, Squad Leader";
 						isPlayable=1;
 					};
 					id=250;
@@ -673,7 +673,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Kilo, Explosives Specialist";
+						description="Kilo, Squad Leader";
 						isPlayable=1;
 					};
 					id=251;
@@ -708,7 +708,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Lima, Assault Diver";
+						description="Lima, Squad Leader";
 						isPlayable=1;
 					};
 					id=252;
@@ -743,7 +743,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Mike, Assault Diver";
+						description="Mike, Squad Leader";
 						isPlayable=1;
 					};
 					id=253;
@@ -778,7 +778,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="November, Engineer";
+						description="November, Squad Leader";
 						isPlayable=1;
 					};
 					id=254;
@@ -813,7 +813,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Oscar, Engineer";
+						description="Oscar, Squad Leader";
 						isPlayable=1;
 					};
 					id=255;
@@ -848,7 +848,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Papa, Engineer";
+						description="Papa, Squad Leader";
 						isPlayable=1;
 					};
 					id=256;
@@ -883,7 +883,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Bravo, Team Leader";
+						description="Bravo, Squad Leader";
 						isPlayable=1;
 					};
 					id=227;
@@ -916,7 +916,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Charlie, Team Leader";
+						description="Charlie, Squad Leader";
 						isPlayable=1;
 					};
 					id=228;
@@ -949,7 +949,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Delta, Sniper";
+						description="Delta, Squad Leader";
 						isPlayable=1;
 					};
 					id=229;
@@ -984,7 +984,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Echo, Sniper";
+						description="Echo, Squad Leader";
 						isPlayable=1;
 					};
 					id=230;
@@ -1019,7 +1019,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Foxtrot, Medic";
+						description="Foxtrot, Squad Leader";
 						isPlayable=1;
 					};
 					id=231;
@@ -1052,7 +1052,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Golf, Medic";
+						description="Golf, Squad Leader";
 						isPlayable=1;
 					};
 					id=232;
@@ -1087,7 +1087,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Hotel, Medic";
+						description="Hotel, Squad Leader";
 						isPlayable=1;
 					};
 					id=233;
@@ -1120,7 +1120,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="India, Explosives Specialist";
+						description="India, Squad Leader";
 						isPlayable=1;
 					};
 					id=234;
@@ -1155,7 +1155,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Juliet, Explosives Specialist";
+						description="Juliet, Squad Leader";
 						isPlayable=1;
 					};
 					id=235;
@@ -1188,7 +1188,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Kilo, Explosives Specialist";
+						description="Kilo, Squad Leader";
 						isPlayable=1;
 					};
 					id=236;
@@ -1221,7 +1221,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Lima, Assault Diver";
+						description="Lima, Squad Leader";
 						isPlayable=1;
 					};
 					id=237;
@@ -1256,7 +1256,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Mike, Assault Diver";
+						description="Mike, Squad Leader";
 						isPlayable=1;
 					};
 					id=238;
@@ -1289,7 +1289,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="November, Engineer";
+						description="November, Squad Leader";
 						isPlayable=1;
 					};
 					id=239;
@@ -1324,7 +1324,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Oscar, Engineer";
+						description="Oscar, Squad Leader";
 						isPlayable=1;
 					};
 					id=240;
@@ -1359,7 +1359,7 @@ class Mission
 					{
 						skill=0.60000002;
 						rank="SERGEANT";
-						description="Papa, Engineer";
+						description="Papa, Squad Leader";
 						isPlayable=1;
 					};
 					id=241;
