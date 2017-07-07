@@ -1,5 +1,5 @@
 //--- Respawn options.
-respawn = 1;
+respawn = 3;
 respawnDelay = 1;
 respawnDialog = false;
 
