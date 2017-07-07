@@ -18,6 +18,7 @@ Needed Mods:
 - RHS United States Armed Forces (USAF) http://www.rhsmods.org
 - RHS Armed Forces of the Russian Federation (AFRF) http://www.rhsmods.org
 - RHS Green Forces (GREF) http://www.rhsmods.org
+- CUP Terrains
 
 Compatible (optional Mods):
 
