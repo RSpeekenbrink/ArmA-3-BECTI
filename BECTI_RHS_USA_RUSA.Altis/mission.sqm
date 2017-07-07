@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=3756;
+		nextID=3820;
 	};
 	class Camera
 	{
@@ -83,7 +83,7 @@ class ScenarioData
 	overviewText="BECTI RHS USA-RUSA ALTIS";
 	onLoadMission="BECTI RHS USA-RUSA ALTIS";
 	respawn=3;
-	respawnDelay=3;
+	respawnDelay=1;
 };
 class CustomAttributes
 {

@@ -154,13 +154,13 @@ _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ ["Bunker (Small)"];
-_classes = _classes 		+ ["Land_BagBunker_01_small_green_F"];
+_classes = _classes 		+ ["Land_BagBunker_Small_F"];
 _prices = _prices 			+ [30];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ ["Military Cargo Post (Green)"];
-_classes = _classes 		+ ["Land_Cargo_Patrol_V4_F"];
+_classes = _classes 		+ ["Land_Cargo_Patrol_V1_F"];
 _prices = _prices 			+ [150];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
@@ -172,7 +172,7 @@ _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ ["Military Cargo Tower (Green)"];
-_classes = _classes 		+ ["Land_Cargo_Tower_V4_F"];
+_classes = _classes 		+ ["Land_Cargo_Tower_V1_F"];
 _prices = _prices 			+ [750];
 _placements = _placements 	+ [[0, 15]];
 _categories = _categories 	+ ["Fortification"];
@@ -207,56 +207,44 @@ _prices = _prices 			+ [200];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
-_headers = _headers 		+ ["H-Barrier (Block)"];
-_classes = _classes 		+ ["Land_HBarrier_01_line_1_green_F"];
-_prices = _prices 			+ [25];
-_placements = _placements 	+ [[0, 7]];
-_categories = _categories 	+ ["Fortification"];
-
 _headers = _headers 		+ ["H-Barrier (Medium)"];
-_classes = _classes 		+ ["Land_HBarrier_01_line_3_green_F"];
-_prices = _prices 			+ [50];
-_placements = _placements 	+ [[0, 7]];
-_categories = _categories 	+ ["Fortification"];
-
-_headers = _headers 		+ ["H-Barrier (Long)"];
-_classes = _classes 		+ ["Land_HBarrier_01_line_5_green_F"];
+_classes = _classes 		+ ["Land_HBarrier_5_F"];
 _prices = _prices 			+ [50];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ [["H-Barrier (Big)",[["CanAutoAlign", 6, 0]]]];
-_classes = _classes 		+ ["Land_HBarrier_01_big_4_green_F"];
+_classes = _classes 		+ ["Land_HBarrierBig_F"];
 _prices = _prices 			+ [75];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ [["H-Barrier Wall (Short)",[["CanAutoAlign", 5, 0]]]];
-_classes = _classes 		+ ["Land_HBarrier_01_wall_4_green_F"];
+_classes = _classes 		+ ["Land_HBarrierWall4_F"];
 _prices = _prices 			+ [25];
 _placements = _placements 	+ [[180, 7]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ [["H-Barrier Wall (Long)",[["CanAutoAlign", 8, 0]]]];
-_classes = _classes 		+ ["Land_HBarrier_01_wall_6_green_F"];
+_classes = _classes 		+ ["Land_HBarrierWall6_F"];
 _prices = _prices 			+ [150];
 _placements = _placements 	+ [[180, 7]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ ["H-Barrier Wall (Corner)"];
-_classes = _classes 		+ ["Land_HBarrier_01_wall_corner_green_F"];
+_classes = _classes 		+ ["Land_HBarrierWall_corner_F"];
 _prices = _prices 			+ [100];
 _placements = _placements 	+ [[180, 7]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ [["H-Barrier Corridor",[["CanAutoAlign", 5, 0]]]];
-_classes = _classes 		+ ["Land_HBarrier_01_wall_corridor_green_F"];
+_classes = _classes 		+ ["Land_HBarrierWall_corridor_F"];
 _prices = _prices 			+ [250];
 _placements = _placements 	+ [[90, 7]];
 _categories = _categories 	+ ["Fortification"];
 
 _headers = _headers 		+ ["H-Barrier Tower"];
-_classes = _classes 		+ ["Land_HBarrier_01_big_tower_green_F"];
+_classes = _classes 		+ ["Land_HBarrierTower_F"];
 _prices = _prices 			+ [200];
 _placements = _placements 	+ [[0, 7]];
 _categories = _categories 	+ ["Fortification"];
