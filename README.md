@@ -6,13 +6,13 @@
 
 <p align="center">
   <a href="https://github.com/RSpeekenbrink/ArmA-3-BECTI/releases/latest">
-    <img src=https://img.shields.io/badge/Mission%20Pack%20Version-0.2.1-379bba.svg?style=plastic> 
+    <img src=https://img.shields.io/badge/Mission%20Pack%20Version-0.3-379bba.svg?style=plastic> 
   </a>
   <a href="https://github.com/RSpeekenbrink/ArmA-3-BECTI/issues">
     <img src=https://img.shields.io/github/issues/RSpeekenbrink/ArmA-3-BECTI.svg?label=Open%20Issues&style=plastic> 
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/Missions%20Available-1-ff00fa.svg?style=plastic">
+    <img src="https://img.shields.io/badge/Missions%20Available-3-ff00fa.svg?style=plastic">
   </a>
 </p>
 
