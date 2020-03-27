@@ -1,0 +1,10 @@
+[
+    {
+        "sourceFolder": "ctix.Altis",
+        "missionName": "CTIX",
+        "map": "Altis",
+        "configFile": "ctix_config.sqf",
+        "variables": {
+        }
+    }
+]

@@ -1,7 +1,0 @@
-Get money & supplies:
-
-_logic = (side player) call CTI_CO_FNC_GetSideLogic; 
-_funds = (side player) call CTI_CO_FNC_GetFundsCommander; 
-_logic setVariable ["cti_commander_funds", _funds + 300000, true]; _supply = (side player) Call CTI_CO_FNC_GetSideSupply; 
-if (isNil '_supply') then {_supply = 0}; 
-_logic setVariable ["cti_supply", _supply + 40000, true];

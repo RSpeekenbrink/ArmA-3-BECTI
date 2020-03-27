@@ -14,11 +14,3 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
-
-#############
-## CUSTOM
-#############
-
-#Folder with releases
-PBOs/Releases
-Images/Images.psd
