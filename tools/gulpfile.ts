@@ -57,7 +57,6 @@ for (let preset of presets) {
 
             const variables = Object.getOwnPropertyNames(preset.variables);
             for (let variable of variables) {
-                // https://regex101.com/r/YknC8r/1
                 const regex = new RegExp(`(${variable} += +)(?:\\d+|".+")`, 'ig');
                 const value = JSON.stringify(preset.variables[variable]);
 
@@ -71,7 +70,6 @@ for (let preset of presets) {
         /** Replace values in stringtable */
         function stringTableReplace () {
             // I know, replacing XML with regex... :|
-            // https://regex101.com/r/TSfish/2
             const versionRegex = /<Key ID="STR_MISSION_VERSION">\s*<Original>(?<version>.+)<\/Original>/;
             const nameRegex = /(<Key ID="STR_MISSION_TITLE">\s*<Original>)(?<name>.+)(<\/Original>)/;
 
@@ -79,7 +77,7 @@ for (let preset of presets) {
                 .pipe(gulpModify((content: string) => {
                     const version: string = content.match(versionRegex)['groups']['version'];
 
-                    return content.replace(nameRegex, `$1CTI 34 CTIX ${preset.mapDisplay || preset.map} ${version}$3`);
+                    return content.replace(nameRegex, `$1CTIX ${preset.mapDisplay || preset.map} ${version}$3`);
                 }))
                 .pipe(gulp.dest(mission.getOutputDir(), { overwrite: true, }))
             ;

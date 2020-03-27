@@ -1,0 +1,12 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Ctix">
+    <Package name="Ctix">
+        <Key ID="STR_MISSION_TITLE">
+            <Original>CTIX</Original>
+        </Key>
+        <Key ID="STR_MISSION_VERSION">
+            <Original>v1.0.0</Original>
+        </Key>
+    </Package>
+</Project>

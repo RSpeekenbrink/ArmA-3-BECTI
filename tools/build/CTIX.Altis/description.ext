@@ -1,0 +1,5 @@
+#include "CfgMaster.hpp"
+
+class RscTitles {
+    #include "dialog\hud_stats.hpp"
+};
